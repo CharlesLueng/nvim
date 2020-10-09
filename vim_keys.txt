@@ -1,0 +1,1489 @@
+
+
+
+v  ["          *@:<C-U>exe "normal! gv"|call search('\%(^\s*".*\n\)\%(^\s*"\)\@!', "bW")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 82
+n  ["          *@:call search('\%(^\s*".*\n\)\%(^\s*"\)\@!', "bW")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 81
+v  []          *@m':<C-U>exe "normal! gv"|call search('^\s*endf\%[unction]\>', "bW")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 74
+n  []          *@m':call search('^\s*endf\%[unction]\>', "bW")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 73
+v  [[          *@m':<C-U>exe "normal! gv"|call search('^\s*fu\%[nction]\>', "bW")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 70
+n  [[          *@m':call search('^\s*fu\%[nction]\>', "bW")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 69
+v  ]"          *@:<C-U>exe "normal! gv"|call search('^\(\s*".*\n\)\@<!\(\s*"\)', "W")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 80
+n  ]"          *@:call search('^\(\s*".*\n\)\@<!\(\s*"\)', "W")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 79
+v  ][          *@m':<C-U>exe "normal! gv"|call search('^\s*endf\%[unction]\>', "W")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 76
+n  ][          *@m':call search('^\s*endf\%[unction]\>', "W")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 75
+v  ]]          *@m':<C-U>exe "normal! gv"|call search('^\s*fu\%[nction]\>', "W")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 72
+n  ]]          *@m':call search('^\s*fu\%[nction]\>', "W")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/ftplugin/vim.vim line 71
+   <M-n>       *@:call AutoPairsJump()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/auto-pairs/plugin/auto-pairs.vim line 577
+   <M-p>       *@:call AutoPairsToggle()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/auto-pairs/plugin/auto-pairs.vim line 572
+   <C-B>       * :Buffers<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/fzf.vim line 14
+n  <C-C>       * :CocCommand<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 59
+n  <C-E>         :CocCommand explorer<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 76
+   <C-F>       * :Rg<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/fzf.vim line 10
+   <C-H>       * :History<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/fzf.vim line 11
+v  <NL>          <Plug>(coc-snippets-select)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 97
+   <C-L>       * :Lines<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/fzf.vim line 13
+x  <C-N>         <Plug>(VM-Find-Subword-Under)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <C-N>         <Plug>(VM-Find-Under)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+   <C-P>       * :Leaderf file<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/fzf.vim line 9
+   <C-Q>       * :qa<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 14
+   <C-T>       * :silent! Vista finder coc<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/vista.vim line 5
+v  <C-_>9        <Plug>TComment_<C-_>9
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>9        <Plug>TComment_<C-_>9
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>8        <Plug>TComment_<C-_>8
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>8        <Plug>TComment_<C-_>8
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>7        <Plug>TComment_<C-_>7
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>7        <Plug>TComment_<C-_>7
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>6        <Plug>TComment_<C-_>6
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>6        <Plug>TComment_<C-_>6
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>5        <Plug>TComment_<C-_>5
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>5        <Plug>TComment_<C-_>5
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>4        <Plug>TComment_<C-_>4
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>4        <Plug>TComment_<C-_>4
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>3        <Plug>TComment_<C-_>3
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>3        <Plug>TComment_<C-_>3
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>2        <Plug>TComment_<C-_>2
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>2        <Plug>TComment_<C-_>2
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+v  <C-_>1        <Plug>TComment_<C-_>1
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 247
+no <C-_>1        <Plug>TComment_<C-_>1
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 245
+   <C-_>ca       <Plug>TComment_<C-_>ca
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 243
+   <C-_>cc       <Plug>TComment_<C-_>cc
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 242
+   <C-_>s        <Plug>TComment_<C-_>s
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 240
+   <C-_>n        <Plug>TComment_<C-_>n
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 238
+   <C-_>a        <Plug>TComment_<C-_>a
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 236
+   <C-_>b        <Plug>TComment_<C-_>b
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 234
+   <C-_>i        <Plug>TComment_<C-_>i
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 232
+   <C-_>r        <Plug>TComment_<C-_>r
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 230
+   <C-_><Space>   <Plug>TComment_<C-_><Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 227
+   <C-_>p        <Plug>TComment_<C-_>p
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 225
+v  <C-_><C-_>    <Plug>TComment_<C-_><C-_>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 223
+no <C-_><C-_>    <Plug>TComment_<C-_><C-_>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 222
+n  <Space>ts     <Plug>(coc-translator-p)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 82
+n  <Space>y    * :<C-U>CocList -A --normal yank<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 70
+n  <Space>=      <Plug>(coc-diagnostic-next)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 58
+n  <Space>-      <Plug>(coc-diagnostic-prev)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 57
+n  <Space>h    * :call <SNR>31_Show_documentation()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 54
+   <Space>tx   * :r !figlet
+	最近修改于 ~/.config/nvimConfig/custom20200922/init.vim line 69
+   <Space><Space> * <Esc>/<++><CR>:nohlsearch<CR>c4l
+	最近修改于 ~/.config/nvimConfig/custom20200922/init.vim line 59
+   <Space>tp   * :tabp<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 97
+   <Space>tn   * :tabn<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 96
+   <Space>tml  * :+tabmove<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 95
+   <Space>tmh  * :-tabmove<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 94
+   <Space>tl   * :+tabnext<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 92
+   <Space>th   * :-tabnext<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 91
+   <Space>tu   * :tabe<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 89
+   <Space>d    * :bd<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 82
+   <Space>q    * <C-W>j:q<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 81
+   <Space>srv  * <C-W>b<C-W>H
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 78
+   <Space>srh  * <C-W>b<C-W>K
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 77
+   <Space>sV   * <C-W>t<C-W>H
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 73
+   <Space>sl   * :set splitright<CR>:vsplit<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 62
+   <Space>sh   * :set nosplitright<CR>:vsplit<CR>:set splitright<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 61
+   <Space>sj   * :set splitbelow<CR>:split<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 60
+   <Space>sk   * :set nosplitbelow<CR>:split<CR>:set splitbelow<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 59
+   <Space>o    * za
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 39
+   <Space>/    * :nohlsearch<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 35
+   <Space>vr   * :so ~/.config/nvim/init.vim<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 20
+   <Space>ve   * :e ~/.config/nvim/init.vim<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 18
+o  %             <Plug>(MatchitOperationForward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 60
+x  %             <Plug>(MatchitVisualForward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 58
+n  %             <Plug>(MatchitNormalForward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 56
+x  ,T            <Plug>(table-mode-tableize-delimiter)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 126
+x  ,tt           <Plug>(table-mode-tableize)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 122
+n  ,tt           <Plug>(table-mode-tableize)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 121
+n  ,tm         * :<C-U>call tablemode#Toggle()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 66
+   ,_s           <Plug>TComment_,_s
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 261
+   ,_n           <Plug>TComment_,_n
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 260
+   ,_a           <Plug>TComment_,_a
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 259
+   ,_b           <Plug>TComment_,_b
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 258
+   ,_r           <Plug>TComment_,_r
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 257
+x  ,_i           <Plug>TComment_,_i
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 256
+   ,_<Space>     <Plug>TComment_,_<Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 255
+   ,_p           <Plug>TComment_,_p
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 254
+x  ,__           <Plug>TComment_,__
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 253
+nos,__           <Plug>TComment_,__
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 252
+x  ,c            <Plug>(VM-Visual-Cursors)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  ,gS           <Plug>(VM-Reselect-Last)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  ,/            <Plug>(VM-Start-Regex-Search)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  ,\            <Plug>(VM-Add-Cursor-At-Pos)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+x  ,f            <Plug>(VM-Visual-Find)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+x  ,/            <Plug>(VM-Visual-Regex)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+x  ,A            <Plug>(VM-Visual-All)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  ,A            <Plug>(VM-Select-All)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+   ,,            <Plug>(easymotion-prefix)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 244
+n  ,al         * :AnyJumpLastResults<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/any-jump.vim/plugin/any-jump.vim line 854
+n  ,ab         * :AnyJumpBack<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/any-jump.vim/plugin/any-jump.vim line 853
+x  ,j          * :AnyJumpVisual<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/any-jump.vim/plugin/any-jump.vim line 852
+n  ,j          * :AnyJump<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/any-jump.vim/plugin/any-jump.vim line 851
+n  ,b          * :<C-U>LeaderfBuffer<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 211
+   ,il           :IndentLinesToggle<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/indentline.vim line 1
+   ,v          * :Vista coc<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/vista.vim line 4
+nos,f          * :F  **/*<Left><Left><Left><Left><Left>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/far.vim line 6
+   ,;          * :History:<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/fzf.vim line 15
+x  ,x            <Plug>(coc-convert-snippet)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 103
+   ,ts         * :CocList tasks<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 94
+n  ,tu         * :CocCommand todolist.download<CR>:CocCommand todolist.upload<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 92
+n  ,tl         * :CocList todolist<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 91
+n  ,tn         * :CocCommand todolist.create<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 90
+n  ,a            :<C-U>set operatorfunc=<SNR>31_cocActionsOpenFromSelected<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 88
+x  ,a            <Plug>(VM-Visual-Add)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  ,qf           <Plug>(coc-fix-current)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 80
+n  ,ac           <Plug>(coc-codeaction)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 78
+n  ,rn           <Plug>(coc-rename)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 75
+n  ,d          * :CocList diagnostics<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 56
+n  ,0            <Plug>lightline#bufferline#go(10)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 88
+n  ,9            <Plug>lightline#bufferline#go(9)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 87
+n  ,8            <Plug>lightline#bufferline#go(8)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 86
+n  ,7            <Plug>lightline#bufferline#go(7)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 85
+n  ,6            <Plug>lightline#bufferline#go(6)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 84
+n  ,5            <Plug>lightline#bufferline#go(5)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 83
+n  ,4            <Plug>lightline#bufferline#go(4)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 82
+n  ,3            <Plug>lightline#bufferline#go(3)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 81
+n  ,2            <Plug>lightline#bufferline#go(2)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 80
+n  ,1            <Plug>lightline#bufferline#go(1)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/lightline.vim line 79
+   ,sw         * :set wrap<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/init.vim line 75
+   ,sc         * :set spell!<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/init.vim line 62
+   ;           * :
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 8
+n  <           * <<
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 31
+n  >           * >>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 32
+   B           * 5b
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 55
+   H           * 0
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 48
+   J           * 5j
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 44
+   K           * 5k
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 43
+   L           * $
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 50
+   Q           * :q<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 13
+n  R           * :RnvimrToggle<CR><C-\><C-N>:RnvimrResize 0<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/rnvimr.vim line 9
+x  S             <Plug>VSurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 608
+nosS           * :w<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 15
+   U           * :UndotreeToggle<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/undotree.vim line 4
+   W           * 5w
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 54
+v  Y           * "+y
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 28
+n  Y           * y$
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 24
+o  [%            <Plug>(MatchitOperationMultiBackward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 75
+x  [%            <Plug>(MatchitVisualMultiBackward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 73
+n  [%            <Plug>(MatchitNormalMultiBackward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 71
+n  \f          * :Autoformat<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/format.vim line 4
+   \s          * :%s//g<Left><Left>
+	最近修改于 ~/.config/nvimConfig/custom20200922/init.vim line 72
+o  ]%            <Plug>(MatchitOperationMultiForward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 76
+x  ]%            <Plug>(MatchitVisualMultiForward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 74
+n  ]%            <Plug>(MatchitNormalMultiForward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 72
+x  a%            <Plug>(MatchitVisualTextObject)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 80
+n  cS            <Plug>CSurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 602
+n  cs            <Plug>Csurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 601
+n  ds            <Plug>Dsurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 600
+v  gx            <Plug>NetrwBrowseXVis
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/plugin/netrwPlugin.vim line 88
+n  gx            <Plug>NetrwBrowseX
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/plugin/netrwPlugin.vim line 82
+o  g%            <Plug>(MatchitOperationBackward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 61
+x  g%            <Plug>(MatchitVisualBackward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 59
+n  g%            <Plug>(MatchitNormalBackward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 57
+x  gS            <Plug>VgSurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 609
+x  g>            <Plug>TComment_Comment
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 284
+n  g>b           <Plug>TComment_Commentb
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 283
+n  g>c           <Plug>TComment_Commentc
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 282
+n  g>            <Plug>TComment_Comment
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 281
+x  g<            <Plug>TComment_Uncomment
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 278
+n  g<b           <Plug>TComment_Uncommentb
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 277
+n  g<c           <Plug>TComment_Uncommentc
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 276
+n  g<            <Plug>TComment_Uncomment
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 275
+x  gc            <Plug>TComment_gc
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 272
+n  gcb           <Plug>TComment_gcb
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 271
+n  gcc           <Plug>TComment_gcc
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 270
+n  gc9c          <Plug>TComment_gc9c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc9           <Plug>TComment_gc9
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc8c          <Plug>TComment_gc8c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc8           <Plug>TComment_gc8
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc7c          <Plug>TComment_gc7c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc7           <Plug>TComment_gc7
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc6c          <Plug>TComment_gc6c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc6           <Plug>TComment_gc6
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc5c          <Plug>TComment_gc5c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc5           <Plug>TComment_gc5
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc4c          <Plug>TComment_gc4c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc4           <Plug>TComment_gc4
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc3c          <Plug>TComment_gc3c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc3           <Plug>TComment_gc3
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc2c          <Plug>TComment_gc2c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc2           <Plug>TComment_gc2
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc1c          <Plug>TComment_gc1c
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 267
+n  gc1           <Plug>TComment_gc1
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 266
+n  gc            <Plug>TComment_gc
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 264
+n  gr            <Plug>(coc-references)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 74
+n  gi            <Plug>(coc-implementation)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 73
+n  gy            <Plug>(coc-type-definition)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 72
+n  gd            <Plug>(coc-definition)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 71
+o  ic            <Plug>TComment_ic
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 288
+v  ic            <Plug>TComment_ic
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 287
+n  mk            <Plug>(coc-bookmark-prev)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 111
+n  mj            <Plug>(coc-bookmark-next)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 110
+n  ma            <Plug>(coc-bookmark-annotate)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 109
+n  mm            <Plug>(coc-bookmark-toggle)
+	最近修改于 ~/.config/nvimConfig/custom20200922/pluginConfig/coc.vim line 108
+n  ySS           <Plug>YSsurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 607
+n  ySs           <Plug>YSsurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 606
+n  yss           <Plug>Yssurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 605
+n  yS            <Plug>YSurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 604
+n  ys            <Plug>Ysurround
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 603
+n  <Plug>(-fzf-:) * :
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/fzf.vim/autoload/fzf/vim.vim line 506
+n  <Plug>(-fzf-/) * /
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/fzf.vim/autoload/fzf/vim.vim line 505
+n  <Plug>(-fzf-vim-do) * :execute g:__fzf_command<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/fzf.vim/autoload/fzf/vim.vim line 504
+n  <Plug>(table-mode-sort) * :call tablemode#spreadsheet#Sort('')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 117
+n  <Plug>(table-mode-echo-cell) * :call <SNR>145_TableEchoCell()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 115
+n  <Plug>(table-mode-eval-formula) * :call tablemode#spreadsheet#formula#EvaluateFormulaLine()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 113
+n  <Plug>(table-mode-add-formula) * :call tablemode#spreadsheet#formula#Add()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 112
+n  <Plug>(table-mode-insert-column-after) * :<C-U>call tablemode#spreadsheet#InsertColumn(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 110
+n  <Plug>(table-mode-insert-column-before) * :<C-U>call tablemode#spreadsheet#InsertColumn(0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 109
+n  <Plug>(table-mode-delete-column) * :<C-U>call tablemode#spreadsheet#DeleteColumn()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 108
+n  <Plug>(table-mode-delete-row) * :<C-U>call tablemode#spreadsheet#DeleteRow()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 107
+x  <Plug>(table-mode-cell-text-object-i) * :<C-U>call tablemode#spreadsheet#cell#TextObject(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 105
+x  <Plug>(table-mode-cell-text-object-a) * :<C-U>call tablemode#spreadsheet#cell#TextObject(0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 104
+o  <Plug>(table-mode-cell-text-object-i) * :<C-U>call tablemode#spreadsheet#cell#TextObject(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 103
+o  <Plug>(table-mode-cell-text-object-a) * :<C-U>call tablemode#spreadsheet#cell#TextObject(0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 102
+n  <Plug>(table-mode-motion-right) * :<C-U>call tablemode#spreadsheet#cell#Motion('l')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 100
+n  <Plug>(table-mode-motion-left) * :<C-U>call tablemode#spreadsheet#cell#Motion('h')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 99
+n  <Plug>(table-mode-motion-down) * :<C-U>call tablemode#spreadsheet#cell#Motion('j')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 98
+n  <Plug>(table-mode-motion-up) * :<C-U>call tablemode#spreadsheet#cell#Motion('k')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 97
+n  <Plug>(table-mode-realign) * :call tablemode#table#Realign('.')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 95
+x  <Plug>(table-mode-tableize-delimiter) * :<C-U>call tablemode#TableizeByDelimiter()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 93
+x  <Plug>(table-mode-tableize) * :Tableize<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 92
+n  <Plug>(table-mode-tableize) * :Tableize<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-table-mode/plugin/table-mode.vim line 91
+n  <Plug>(coc-translator-h) * :<C-U>call coc#rpc#notify('doKeymap', ['translator-h'])<CR>
+v  <Plug>(coc-translator-rv) * :<C-U>call coc#rpc#notify('doKeymap', ['translator-rv'])<CR>
+n  <Plug>(coc-translator-r) * :<C-U>call coc#rpc#notify('doKeymap', ['translator-r'])<CR>
+v  <Plug>(coc-translator-ev) * :<C-U>call coc#rpc#notify('doKeymap', ['translator-ev'])<CR>
+n  <Plug>(coc-translator-e) * :<C-U>call coc#rpc#notify('doKeymap', ['translator-e'])<CR>
+v  <Plug>(coc-translator-pv) * :<C-U>call coc#rpc#notify('doKeymap', ['translator-pv'])<CR>
+n  <Plug>(coc-translator-p) * :<C-U>call coc#rpc#notify('doKeymap', ['translator-p'])<CR>
+v  <Plug>(coc-snippets-select) * :<C-U>call coc#rpc#notify('doKeymap', ['snippets-select'])<CR>
+x  <Plug>(coc-convert-snippet) * :<C-U>call coc#rpc#notify('doKeymap', ['convert-snippet'])<CR>
+v  <Plug>(coc-explorer-action-v->>) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v->>'])<CR>
+n  <Plug>(coc-explorer-action-n->>) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n->>'])<CR>
+v  <Plug>(coc-explorer-action-v-<<) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-<<'])<CR>
+n  <Plug>(coc-explorer-action-n-<<) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-<<'])<CR>
+v  <Plug>(coc-explorer-action-v-]c) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-]c'])<CR>
+n  <Plug>(coc-explorer-action-n-]c) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-]c'])<CR>
+v  <Plug>(coc-explorer-action-v-[c) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[c'])<CR>
+n  <Plug>(coc-explorer-action-n-[c) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[c'])<CR>
+v  <Plug>(coc-explorer-action-v-]d) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-]d'])<CR>
+n  <Plug>(coc-explorer-action-n-]d) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-]d'])<CR>
+v  <Plug>(coc-explorer-action-v-[d) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[d'])<CR>
+n  <Plug>(coc-explorer-action-n-[d) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[d'])<CR>
+v  <Plug>(coc-explorer-action-v-]m) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-]m'])<CR>
+n  <Plug>(coc-explorer-action-n-]m) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-]m'])<CR>
+v  <Plug>(coc-explorer-action-v-[m) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[m'])<CR>
+n  <Plug>(coc-explorer-action-n-[m) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[m'])<CR>
+v  <Plug>(coc-explorer-action-v-]i) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-]i'])<CR>
+n  <Plug>(coc-explorer-action-n-]i) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-]i'])<CR>
+v  <Plug>(coc-explorer-action-v-[i) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[i'])<CR>
+n  <Plug>(coc-explorer-action-n-[i) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[i'])<CR>
+v  <Plug>(coc-explorer-action-v-]]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-]]'])<CR>
+n  <Plug>(coc-explorer-action-n-]]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-]]'])<CR>
+v  <Plug>(coc-explorer-action-v-[[) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[['])<CR>
+n  <Plug>(coc-explorer-action-n-[[) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[['])<CR>
+v  <Plug>(coc-explorer-action-v-gb) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gb'])<CR>
+n  <Plug>(coc-explorer-action-n-gb) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gb'])<CR>
+v  <Plug>(coc-explorer-action-v-gf) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gf'])<CR>
+n  <Plug>(coc-explorer-action-n-gf) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gf'])<CR>
+v  <Plug>(coc-explorer-action-v-F) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-F'])<CR>
+n  <Plug>(coc-explorer-action-n-F) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-F'])<CR>
+v  <Plug>(coc-explorer-action-v-f) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-f'])<CR>
+n  <Plug>(coc-explorer-action-n-f) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-f'])<CR>
+v  <Plug>(coc-explorer-action-v-gd) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gd'])<CR>
+n  <Plug>(coc-explorer-action-n-gd) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gd'])<CR>
+v  <Plug>(coc-explorer-action-v-X) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-X'])<CR>
+n  <Plug>(coc-explorer-action-n-X) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-X'])<CR>
+v  <Plug>(coc-explorer-action-v-[esc]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[esc]'])<CR>
+n  <Plug>(coc-explorer-action-n-[esc]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[esc]'])<CR>
+v  <Plug>(coc-explorer-action-v-q) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-q'])<CR>
+n  <Plug>(coc-explorer-action-n-q) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-q'])<CR>
+v  <Plug>(coc-explorer-action-v-?) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-?'])<CR>
+n  <Plug>(coc-explorer-action-n-?) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-?'])<CR>
+v  <Plug>(coc-explorer-action-v-R) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-R'])<CR>
+n  <Plug>(coc-explorer-action-n-R) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-R'])<CR>
+v  <Plug>(coc-explorer-action-v-.) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-.'])<CR>
+n  <Plug>(coc-explorer-action-n-.) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-.'])<CR>
+v  <Plug>(coc-explorer-action-v-r) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-r'])<CR>
+n  <Plug>(coc-explorer-action-n-r) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-r'])<CR>
+v  <Plug>(coc-explorer-action-v-A) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-A'])<CR>
+n  <Plug>(coc-explorer-action-n-A) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-A'])<CR>
+v  <Plug>(coc-explorer-action-v-a) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-a'])<CR>
+n  <Plug>(coc-explorer-action-n-a) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-a'])<CR>
+v  <Plug>(coc-explorer-action-v-D) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-D'])<CR>
+n  <Plug>(coc-explorer-action-n-D) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-D'])<CR>
+v  <Plug>(coc-explorer-action-v-d) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-d'])<CR>
+n  <Plug>(coc-explorer-action-n-d) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-d'])<CR>
+v  <Plug>(coc-explorer-action-v-p) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-p'])<CR>
+n  <Plug>(coc-explorer-action-n-p) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-p'])<CR>
+v  <Plug>(coc-explorer-action-v-x) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-x'])<CR>
+n  <Plug>(coc-explorer-action-n-x) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-x'])<CR>
+v  <Plug>(coc-explorer-action-v-c) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-c'])<CR>
+n  <Plug>(coc-explorer-action-n-c) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-c'])<CR>
+v  <Plug>(coc-explorer-action-v-Y) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-Y'])<CR>
+n  <Plug>(coc-explorer-action-n-Y) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-Y'])<CR>
+v  <Plug>(coc-explorer-action-v-y) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-y'])<CR>
+n  <Plug>(coc-explorer-action-n-y) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-y'])<CR>
+v  <Plug>(coc-explorer-action-v-gp) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gp'])<CR>
+n  <Plug>(coc-explorer-action-n-gp) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gp'])<CR>
+v  <Plug>(coc-explorer-action-v-gs) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gs'])<CR>
+n  <Plug>(coc-explorer-action-n-gs) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gs'])<CR>
+v  <Plug>(coc-explorer-action-v-[bs]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[bs]'])<CR>
+n  <Plug>(coc-explorer-action-n-[bs]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[bs]'])<CR>
+v  <Plug>(coc-explorer-action-v-t) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-t'])<CR>
+n  <Plug>(coc-explorer-action-n-t) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-t'])<CR>
+v  <Plug>(coc-explorer-action-v-E) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-E'])<CR>
+n  <Plug>(coc-explorer-action-n-E) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-E'])<CR>
+v  <Plug>(coc-explorer-action-v-s) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-s'])<CR>
+n  <Plug>(coc-explorer-action-n-s) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-s'])<CR>
+v  <Plug>(coc-explorer-action-v-e) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-e'])<CR>
+n  <Plug>(coc-explorer-action-n-e) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-e'])<CR>
+v  <Plug>(coc-explorer-action-v-[cr]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[cr]'])<CR>
+n  <Plug>(coc-explorer-action-n-[cr]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[cr]'])<CR>
+n  <Plug>(coc-explorer-action-n-o) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-o'])<CR>
+v  <Plug>(coc-explorer-action-v-[2-LeftMouse]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[2-LeftMouse]'])<CR>
+n  <Plug>(coc-explorer-action-n-[2-LeftMouse]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[2-LeftMouse]'])<CR>
+v  <Plug>(coc-explorer-action-v-gh) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gh'])<CR>
+n  <Plug>(coc-explorer-action-n-gh) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gh'])<CR>
+v  <Plug>(coc-explorer-action-v-gl) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gl'])<CR>
+n  <Plug>(coc-explorer-action-n-gl) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gl'])<CR>
+v  <Plug>(coc-explorer-action-v-K) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-K'])<CR>
+n  <Plug>(coc-explorer-action-n-K) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-K'])<CR>
+v  <Plug>(coc-explorer-action-v-J) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-J'])<CR>
+n  <Plug>(coc-explorer-action-n-J) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-J'])<CR>
+v  <Plug>(coc-explorer-action-v-l) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-l'])<CR>
+n  <Plug>(coc-explorer-action-n-l) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-l'])<CR>
+v  <Plug>(coc-explorer-action-v-h) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-h'])<CR>
+n  <Plug>(coc-explorer-action-n-h) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-h'])<CR>
+v  <Plug>(coc-explorer-action-v-gj) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gj'])<CR>
+n  <Plug>(coc-explorer-action-n-gj) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gj'])<CR>
+v  <Plug>(coc-explorer-action-v-gk) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-gk'])<CR>
+n  <Plug>(coc-explorer-action-n-gk) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-gk'])<CR>
+v  <Plug>(coc-explorer-action-v-[tab]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-[tab]'])<CR>
+n  <Plug>(coc-explorer-action-n-[tab]) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-[tab]'])<CR>
+v  <Plug>(coc-explorer-action-v-*) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-v-*'])<CR>
+n  <Plug>(coc-explorer-action-n-*) * :<C-U>call coc#rpc#request('doKeymap', ['explorer-action-n-*'])<CR>
+x  <Plug>(coc-git-chunk-outer) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-outer'])<CR>
+o  <Plug>(coc-git-chunk-outer) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-outer'])<CR>
+x  <Plug>(coc-git-chunk-inner) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-inner'])<CR>
+o  <Plug>(coc-git-chunk-inner) * :<C-U>call coc#rpc#request('doKeymap', ['git-chunk-inner'])<CR>
+n  <Plug>(coc-git-commit) * :<C-U>call coc#rpc#notify('doKeymap', ['git-commit'])<CR>
+n  <Plug>(coc-git-chunkinfo) * :<C-U>call coc#rpc#notify('doKeymap', ['git-chunkinfo'])<CR>
+n  <Plug>(coc-git-prevchunk) * :<C-U>call coc#rpc#notify('doKeymap', ['git-prevchunk'])<CR>
+n  <Plug>(coc-git-nextchunk) * :<C-U>call coc#rpc#notify('doKeymap', ['git-nextchunk'])<CR>
+n  <Plug>(coc-bookmark-prev) * :<C-U>call coc#rpc#notify('doKeymap', ['bookmark-prev'])<CR>
+n  <Plug>(coc-bookmark-next) * :<C-U>call coc#rpc#notify('doKeymap', ['bookmark-next'])<CR>
+n  <Plug>(coc-bookmark-annotate) * :<C-U>call coc#rpc#notify('doKeymap', ['bookmark-annotate'])<CR>
+n  <Plug>(coc-bookmark-toggle) * :<C-U>call coc#rpc#notify('doKeymap', ['bookmark-toggle'])<CR>
+v  <Plug>NetrwBrowseXVis * :<C-U>call netrw#BrowseXVis()<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/plugin/netrwPlugin.vim line 90
+n  <Plug>NetrwBrowseX * :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/plugin/netrwPlugin.vim line 84
+v  <Plug>(MatchitVisualTextObject)   <Plug>(MatchitVisualMultiBackward)o<Plug>(MatchitVisualMultiForward)
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 79
+o  <Plug>(MatchitOperationMultiForward) * :<C-U>call matchit#MultiMatch("W",  "o")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 69
+o  <Plug>(MatchitOperationMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "o")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 68
+v  <Plug>(MatchitVisualMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>m'gv``
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 67
+v  <Plug>(MatchitVisualMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>m'gv``
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 66
+n  <Plug>(MatchitNormalMultiForward) * :<C-U>call matchit#MultiMatch("W",  "n")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 65
+n  <Plug>(MatchitNormalMultiBackward) * :<C-U>call matchit#MultiMatch("bW", "n")<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 64
+o  <Plug>(MatchitOperationBackward) * :<C-U>call matchit#Match_wrapper('',0,'o')<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 54
+o  <Plug>(MatchitOperationForward) * :<C-U>call matchit#Match_wrapper('',1,'o')<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 53
+v  <Plug>(MatchitVisualBackward) * :<C-U>call matchit#Match_wrapper('',0,'v')<CR>m'gv``
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 52
+v  <Plug>(MatchitVisualForward) * :<C-U>call matchit#Match_wrapper('',1,'v')<CR>m'gv``
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 51
+n  <Plug>(MatchitNormalBackward) * :<C-U>call matchit#Match_wrapper('',0,'n')<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 50
+n  <Plug>(MatchitNormalForward) * :<C-U>call matchit#Match_wrapper('',1,'n')<CR>
+	最近修改于 /usr/local/Cellar/neovim/0.4.3/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim line 49
+n  <Plug>(startify-open-buffers) * :<C-U>call startify#open_buffers()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-startify/plugin/startify.vim line 67
+v  <Plug>VgSurround * :<C-U>call <SNR>77_opfunc(visualmode(),visualmode() ==# 'V' ? 0 : 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 595
+v  <Plug>VSurround * :<C-U>call <SNR>77_opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 594
+n  <Plug>YSurround * <SNR>77_opfunc2('setup')
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 593
+n  <Plug>Ysurround * <SNR>77_opfunc('setup')
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 592
+n  <Plug>YSsurround * <SNR>77_opfunc2('setup').'_'
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 591
+n  <Plug>Yssurround * '^'.v:count1.<SNR>77_opfunc('setup').'g_'
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 590
+n  <Plug>CSurround * :<C-U>call <SNR>77_changesurround(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 589
+n  <Plug>Csurround * :<C-U>call <SNR>77_changesurround()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 588
+n  <Plug>Dsurround * :<C-U>call <SNR>77_dosurround(<SNR>77_inputtarget())<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 587
+n  <Plug>SurroundRepeat * .
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-surround/plugin/surround.vim line 586
+n  <Plug>TComment_gc9c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc9c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc8c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc8c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc7c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc7c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc6c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc6c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc5c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc5c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc4c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc4c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc3c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc3c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc2c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc2c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc1c * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc1c<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+v  <Plug>TComment_<C-_>9 * :call tcomment#SetOption("count", 9)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>9 * :call tcomment#SetOption("count", 9)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>8 * :call tcomment#SetOption("count", 8)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>8 * :call tcomment#SetOption("count", 8)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>7 * :call tcomment#SetOption("count", 7)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>7 * :call tcomment#SetOption("count", 7)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>6 * :call tcomment#SetOption("count", 6)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>6 * :call tcomment#SetOption("count", 6)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>5 * :call tcomment#SetOption("count", 5)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>5 * :call tcomment#SetOption("count", 5)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>4 * :call tcomment#SetOption("count", 4)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>4 * :call tcomment#SetOption("count", 4)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>3 * :call tcomment#SetOption("count", 3)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>3 * :call tcomment#SetOption("count", 3)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>2 * :call tcomment#SetOption("count", 2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>2 * :call tcomment#SetOption("count", 2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+v  <Plug>TComment_<C-_>1 * :call tcomment#SetOption("count", 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 210
+no <Plug>TComment_<C-_>1 * :call tcomment#SetOption("count", 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 208
+n  <Plug>TComment_gC * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gC<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gc * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gc<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+x  <Plug>TComment_gc * :TCommentMaybeInline<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 202
+n  <Plug>TComment_gcb * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gcb<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_gcc * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_gcc<CR>g@$
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+   <Plug>TComment_ic * :<C-U>call tcomment#textobject#InlineComment()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 198
+x  <Plug>TComment_Comment * :<C-U>if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | '<,'>TCommentMaybeInline!<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 195
+n  <Plug>TComment_Commentb * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_Commentb<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_Commentc * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_Commentc<CR>g@$
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_Commentl * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_Commentl<CR>g@$
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_Comment * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_Comment<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+x  <Plug>TComment_Uncomment * :<C-U>if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | call tcomment#SetOption("mode_extra", "U") | '<,'>TCommentMaybeInline<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 189
+n  <Plug>TComment_Uncommentb * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_Uncommentb<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_Uncommentc * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_Uncommentc<CR>g@$
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+n  <Plug>TComment_Uncomment * :<C-U>call tcomment#ResetOption() | if v:count > 0 | call tcomment#SetOption("count", v:count) | endif | let w:tcommentPos = getpos(".") |set opfunc=TCommentOpFunc_Uncomment<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 179
+   <Plug>TComment_,_s * :TCommentAs <C-R>=&ft<CR>_
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 166
+   <Plug>TComment_,_n * :TCommentAs <C-R>=&ft<CR><Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 165
+   <Plug>TComment_,_a * :TCommentAs<Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 164
+   <Plug>TComment_,_b * :TCommentBlock<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 163
+   <Plug>TComment_,_r * :TCommentRight<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 162
+x  <Plug>TComment_,_i * :TCommentInline<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 161
+   <Plug>TComment_,_<Space> * :TComment<Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 160
+   <Plug>TComment_,_p * vip:TComment<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 159
+x  <Plug>TComment_,__ * :TCommentMaybeInline<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 158
+nos<Plug>TComment_,__ * :TComment<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 157
+   <Plug>TComment_<C-_>ca * :<C-U>call tcomment#SetOption("as", input("Comment as: ", &filetype, "customlist,tcomment#complete#Complete"))<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 155
+   <Plug>TComment_<C-_>cc * :<C-U>call tcomment#SetOption("count", v:count1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 154
+   <Plug>TComment_<C-_>s * :TCommentAs <C-R>=&ft<CR>_
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 152
+   <Plug>TComment_<C-_>n * :TCommentAs <C-R>=&ft<CR><Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 150
+   <Plug>TComment_<C-_>a * :TCommentAs<Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 148
+   <Plug>TComment_<C-_>b * :TCommentBlock<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 146
+   <Plug>TComment_<C-_>i * v:TCommentInline mode=I#<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 144
+   <Plug>TComment_<C-_>r * :TCommentRight<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 142
+   <Plug>TComment_<C-_><Space> * :TComment<Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 139
+   <Plug>TComment_<C-_>p * m`vip:TComment<CR>``
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 137
+v  <Plug>TComment_<C-_><C-_> * :TCommentMaybeInline<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 135
+no <Plug>TComment_<C-_><C-_> * :TComment<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/tcomment_vim/plugin/tcomment.vim line 134
+n  <C-Down>      <Plug>(VM-Add-Cursor-Down)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <C-Up>        <Plug>(VM-Add-Cursor-Up)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <S-Right>     <Plug>(VM-Select-l)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <S-Left>      <Plug>(VM-Select-h)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/maps.vim line 18
+n  <Plug>(VM-Select-BBW) * :<C-U>call vm#commands#motion('BBW', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-gE) * :<C-U>call vm#commands#motion('gE', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-ge) * :<C-U>call vm#commands#motion('ge', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-E) * :<C-U>call vm#commands#motion('E', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-e) * :<C-U>call vm#commands#motion('e', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-B) * :<C-U>call vm#commands#motion('B', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-b) * :<C-U>call vm#commands#motion('b', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-W) * :<C-U>call vm#commands#motion('W', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-w) * :<C-U>call vm#commands#motion('w', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-l) * :<C-U>call vm#commands#motion('l', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-k) * :<C-U>call vm#commands#motion('k', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-j) * :<C-U>call vm#commands#motion('j', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Select-h) * :<C-U>call vm#commands#motion('h', v:count1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 36
+n  <Plug>(VM-Mouse-Column) * :call vm#commands#mouse_column()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 32
+n  <Plug>(VM-Mouse-Word)   <Plug>(VM-Left-Mouse)<Plug>(VM-Find-Under)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 31
+n  <Plug>(VM-Mouse-Cursor)   <Plug>(VM-Left-Mouse)<Plug>(VM-Add-Cursor-At-Pos)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 30
+n  <Plug>(VM-Left-Mouse) * <LeftMouse>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 29
+x  <Plug>(VM-Visual-Regex) * :call vm#commands#find_by_regex(2)<CR>:call feedkeys('/', 'n')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 27
+n  <Plug>(VM-Start-Regex-Search) * @=vm#commands#find_by_regex(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 26
+x  <Plug>(VM-Find-Subword-Under) * <SNR>72_Visual('under')
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 24
+n  <Plug>(VM-Find-Under) * :<C-U>call vm#commands#ctrln(v:count1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 23
+x  <Plug>(VM-Visual-Reduce) * :<C-U>call vm#visual#reduce()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 21
+x  <Plug>(VM-Visual-Add) * <Esc>:call vm#commands#visual_add()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 20
+x  <Plug>(VM-Visual-Cursors) * <Esc>:call vm#commands#visual_cursors()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 19
+x  <Plug>(VM-Visual-All) * <SNR>72_Visual('all')
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 18
+n  <Plug>(VM-Select-All) * :call vm#commands#find_all(0, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 17
+n  <Plug>(VM-Reselect-Last) * :call vm#commands#reselect_last()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 16
+n  <Plug>(VM-Select-Cursor-Up) * :<C-U>call vm#commands#add_cursor_up(1, v:count1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 14
+n  <Plug>(VM-Select-Cursor-Down) * :<C-U>call vm#commands#add_cursor_down(1, v:count1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 13
+n  <Plug>(VM-Add-Cursor-Up) * :<C-U>call vm#commands#add_cursor_up(0, v:count1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 12
+n  <Plug>(VM-Add-Cursor-Down) * :<C-U>call vm#commands#add_cursor_down(0, v:count1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 11
+n  <Plug>(VM-Add-Cursor-At-Word) * :call vm#commands#add_cursor_at_word(1, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 10
+n  <Plug>(VM-Add-Cursor-At-Pos) * :call vm#commands#add_cursor_at_pos(0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 9
+x  <Plug>(VM-Visual-Find)   vm#operators#find(1, 1)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-visual-multi/autoload/vm/plugs.vim line 7
+   <Plug>(easymotion-prefix)N   <Plug>(easymotion-N)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)n   <Plug>(easymotion-n)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)k   <Plug>(easymotion-k)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)j   <Plug>(easymotion-j)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)gE   <Plug>(easymotion-gE)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)ge   <Plug>(easymotion-ge)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)E   <Plug>(easymotion-E)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)e   <Plug>(easymotion-e)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)B   <Plug>(easymotion-B)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)b   <Plug>(easymotion-b)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)W   <Plug>(easymotion-W)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)w   <Plug>(easymotion-w)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)T   <Plug>(easymotion-T)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)t   <Plug>(easymotion-t)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)s   <Plug>(easymotion-s)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)F   <Plug>(easymotion-F)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+   <Plug>(easymotion-prefix)f   <Plug>(easymotion-f)
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 261
+x  <Plug>(easymotion-activate) * :<C-U>call EasyMotion#activate(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 234
+nos<Plug>(easymotion-activate) * :<C-U>call EasyMotion#activate(0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 233
+   <Plug>(easymotion-dotrepeat) * :<C-U>call EasyMotion#DotRepeat()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 230
+x  <Plug>(easymotion-repeat) * <Esc>:<C-U>call EasyMotion#Repeat(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 227
+nos<Plug>(easymotion-repeat) * :<C-U>call EasyMotion#Repeat(0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 225
+x  <Plug>(easymotion-prev) * :<C-U>call EasyMotion#NextPrevious(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 220
+nos<Plug>(easymotion-prev) * :<C-U>call EasyMotion#NextPrevious(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 218
+x  <Plug>(easymotion-next) * :<C-U>call EasyMotion#NextPrevious(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 215
+nos<Plug>(easymotion-next) * :<C-U>call EasyMotion#NextPrevious(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 213
+x  <Plug>(easymotion-wl) * <Esc>:<C-U>call EasyMotion#WBL(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-wl) * :<C-U>call EasyMotion#WBL(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-lineforward) * <Esc>:<C-U>call EasyMotion#LineAnywhere(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-lineforward) * :<C-U>call EasyMotion#LineAnywhere(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-lineanywhere) * <Esc>:<C-U>call EasyMotion#LineAnywhere(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-lineanywhere) * :<C-U>call EasyMotion#LineAnywhere(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-wl) * <Esc>:<C-U>call EasyMotion#WBL(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-wl) * :<C-U>call EasyMotion#WBL(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-linebackward) * <Esc>:<C-U>call EasyMotion#LineAnywhere(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-linebackward) * :<C-U>call EasyMotion#LineAnywhere(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bl) * <Esc>:<C-U>call EasyMotion#WBL(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bl) * :<C-U>call EasyMotion#WBL(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-el) * <Esc>:<C-U>call EasyMotion#EL(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-el) * :<C-U>call EasyMotion#EL(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-gel) * <Esc>:<C-U>call EasyMotion#EL(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-gel) * :<C-U>call EasyMotion#EL(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-el) * <Esc>:<C-U>call EasyMotion#EL(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-el) * :<C-U>call EasyMotion#EL(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-jumptoanywhere) * <Esc>:<C-U>call EasyMotion#JumpToAnywhere(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-jumptoanywhere) * :<C-U>call EasyMotion#JumpToAnywhere(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-vim-n) * <Esc>:<C-U>call EasyMotion#Search(1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-vim-n) * :<C-U>call EasyMotion#Search(0,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-n) * <Esc>:<C-U>call EasyMotion#Search(1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-n) * :<C-U>call EasyMotion#Search(0,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-n) * <Esc>:<C-U>call EasyMotion#Search(1,2,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-n) * :<C-U>call EasyMotion#Search(0,2,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-vim-N) * <Esc>:<C-U>call EasyMotion#Search(1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-vim-N) * :<C-U>call EasyMotion#Search(0,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-N) * <Esc>:<C-U>call EasyMotion#Search(1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-N) * :<C-U>call EasyMotion#Search(0,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-eol-j) * <Esc>:<C-U>call EasyMotion#Eol(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-eol-j) * :<C-U>call EasyMotion#Eol(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-sol-k) * <Esc>:<C-U>call EasyMotion#Sol(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-sol-k) * :<C-U>call EasyMotion#Sol(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-sol-j) * <Esc>:<C-U>call EasyMotion#Sol(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-sol-j) * :<C-U>call EasyMotion#Sol(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-k) * <Esc>:<C-U>call EasyMotion#JK(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-k) * :<C-U>call EasyMotion#JK(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-j) * <Esc>:<C-U>call EasyMotion#JK(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-j) * :<C-U>call EasyMotion#JK(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-jk) * <Esc>:<C-U>call EasyMotion#JK(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-jk) * :<C-U>call EasyMotion#JK(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-eol-bd-jk) * <Esc>:<C-U>call EasyMotion#Eol(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-eol-bd-jk) * :<C-U>call EasyMotion#Eol(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-sol-bd-jk) * <Esc>:<C-U>call EasyMotion#Sol(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-sol-bd-jk) * :<C-U>call EasyMotion#Sol(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-eol-k) * <Esc>:<C-U>call EasyMotion#Eol(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-eol-k) * :<C-U>call EasyMotion#Eol(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-iskeyword-ge) * <Esc>:<C-U>call EasyMotion#EK(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-iskeyword-ge) * :<C-U>call EasyMotion#EK(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-w) * <Esc>:<C-U>call EasyMotion#WB(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-w) * :<C-U>call EasyMotion#WB(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-W) * <Esc>:<C-U>call EasyMotion#WBW(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-W) * :<C-U>call EasyMotion#WBW(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-iskeyword-w) * <Esc>:<C-U>call EasyMotion#WBK(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-iskeyword-w) * :<C-U>call EasyMotion#WBK(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-gE) * <Esc>:<C-U>call EasyMotion#EW(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-gE) * :<C-U>call EasyMotion#EW(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-e) * <Esc>:<C-U>call EasyMotion#E(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-e) * :<C-U>call EasyMotion#E(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-E) * <Esc>:<C-U>call EasyMotion#EW(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-E) * :<C-U>call EasyMotion#EW(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-iskeyword-e) * <Esc>:<C-U>call EasyMotion#EK(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-iskeyword-e) * :<C-U>call EasyMotion#EK(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-b) * <Esc>:<C-U>call EasyMotion#WB(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-b) * :<C-U>call EasyMotion#WB(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-iskeyword-b) * <Esc>:<C-U>call EasyMotion#WBK(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-iskeyword-b) * :<C-U>call EasyMotion#WBK(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-iskeyword-bd-w) * <Esc>:<C-U>call EasyMotion#WBK(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-iskeyword-bd-w) * :<C-U>call EasyMotion#WBK(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-W) * <Esc>:<C-U>call EasyMotion#WBW(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-W) * :<C-U>call EasyMotion#WBW(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-w) * <Esc>:<C-U>call EasyMotion#WB(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-w) * :<C-U>call EasyMotion#WB(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-iskeyword-bd-e) * <Esc>:<C-U>call EasyMotion#EK(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-iskeyword-bd-e) * :<C-U>call EasyMotion#EK(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-ge) * <Esc>:<C-U>call EasyMotion#E(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-ge) * :<C-U>call EasyMotion#E(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-E) * <Esc>:<C-U>call EasyMotion#EW(1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-E) * :<C-U>call EasyMotion#EW(0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-e) * <Esc>:<C-U>call EasyMotion#E(1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-e) * :<C-U>call EasyMotion#E(0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-B) * <Esc>:<C-U>call EasyMotion#WBW(1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-B) * :<C-U>call EasyMotion#WBW(0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+n  <Plug>(easymotion-overwin-w) * :<C-U>call EasyMotion#overwin#w()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 139
+n  <Plug>(easymotion-overwin-line) * :<C-U>call EasyMotion#overwin#line()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 138
+n  <Plug>(easymotion-overwin-f2) * :<C-U>call EasyMotion#OverwinF(2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 137
+n  <Plug>(easymotion-overwin-f) * :<C-U>call EasyMotion#OverwinF(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 136
+x  <Plug>(easymotion-Tln) * <Esc>:<C-U>call EasyMotion#TL(-1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Tln) * :<C-U>call EasyMotion#TL(-1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-t2) * <Esc>:<C-U>call EasyMotion#T(2,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-t2) * :<C-U>call EasyMotion#T(2,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-t) * <Esc>:<C-U>call EasyMotion#T(1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-t) * :<C-U>call EasyMotion#T(1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-s) * <Esc>:<C-U>call EasyMotion#S(1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-s) * :<C-U>call EasyMotion#S(1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-tn) * <Esc>:<C-U>call EasyMotion#T(-1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-tn) * :<C-U>call EasyMotion#T(-1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-t2) * <Esc>:<C-U>call EasyMotion#T(2,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-t2) * :<C-U>call EasyMotion#T(2,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-tl) * <Esc>:<C-U>call EasyMotion#TL(1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-tl) * :<C-U>call EasyMotion#TL(1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-tn) * <Esc>:<C-U>call EasyMotion#T(-1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-tn) * :<C-U>call EasyMotion#T(-1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-fn) * <Esc>:<C-U>call EasyMotion#S(-1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-fn) * :<C-U>call EasyMotion#S(-1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-tl) * <Esc>:<C-U>call EasyMotion#TL(1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-tl) * :<C-U>call EasyMotion#TL(1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-fl) * <Esc>:<C-U>call EasyMotion#SL(1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-fl) * :<C-U>call EasyMotion#SL(1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-tl2) * <Esc>:<C-U>call EasyMotion#TL(2,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-tl2) * :<C-U>call EasyMotion#TL(2,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-fn) * <Esc>:<C-U>call EasyMotion#S(-1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-fn) * :<C-U>call EasyMotion#S(-1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-f) * <Esc>:<C-U>call EasyMotion#S(1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-f) * :<C-U>call EasyMotion#S(1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-fl) * <Esc>:<C-U>call EasyMotion#SL(1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-fl) * :<C-U>call EasyMotion#SL(1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-Fl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Fl2) * :<C-U>call EasyMotion#SL(2,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-tl2) * <Esc>:<C-U>call EasyMotion#TL(2,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-tl2) * :<C-U>call EasyMotion#TL(2,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-f2) * <Esc>:<C-U>call EasyMotion#S(2,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-f2) * :<C-U>call EasyMotion#S(2,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-Fln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Fln) * :<C-U>call EasyMotion#SL(-1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-sln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-sln) * :<C-U>call EasyMotion#SL(-1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-tln) * <Esc>:<C-U>call EasyMotion#TL(-1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-tln) * :<C-U>call EasyMotion#TL(-1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-fl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-fl2) * :<C-U>call EasyMotion#SL(2,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-fl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-fl2) * :<C-U>call EasyMotion#SL(2,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-T2) * <Esc>:<C-U>call EasyMotion#T(2,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-T2) * :<C-U>call EasyMotion#T(2,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-tln) * <Esc>:<C-U>call EasyMotion#TL(-1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-tln) * :<C-U>call EasyMotion#TL(-1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-T) * <Esc>:<C-U>call EasyMotion#T(1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-T) * :<C-U>call EasyMotion#T(1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-t) * <Esc>:<C-U>call EasyMotion#T(1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-t) * :<C-U>call EasyMotion#T(1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-Tn) * <Esc>:<C-U>call EasyMotion#T(-1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Tn) * :<C-U>call EasyMotion#T(-1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-s2) * <Esc>:<C-U>call EasyMotion#S(2,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-s2) * :<C-U>call EasyMotion#S(2,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-Tl) * <Esc>:<C-U>call EasyMotion#TL(1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Tl) * :<C-U>call EasyMotion#TL(1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-sn) * <Esc>:<C-U>call EasyMotion#S(-1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-sn) * :<C-U>call EasyMotion#S(-1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-Fn) * <Esc>:<C-U>call EasyMotion#S(-1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Fn) * :<C-U>call EasyMotion#S(-1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-sl) * <Esc>:<C-U>call EasyMotion#SL(1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-sl) * :<C-U>call EasyMotion#SL(1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-Fl) * <Esc>:<C-U>call EasyMotion#SL(1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Fl) * :<C-U>call EasyMotion#SL(1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-sl2) * <Esc>:<C-U>call EasyMotion#SL(2,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-sl2) * :<C-U>call EasyMotion#SL(2,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-fln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-fln) * :<C-U>call EasyMotion#SL(-1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-F) * <Esc>:<C-U>call EasyMotion#S(1,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-F) * :<C-U>call EasyMotion#S(1,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-f) * <Esc>:<C-U>call EasyMotion#S(1,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-f) * :<C-U>call EasyMotion#S(1,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-F2) * <Esc>:<C-U>call EasyMotion#S(2,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-F2) * :<C-U>call EasyMotion#S(2,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-bd-f2) * <Esc>:<C-U>call EasyMotion#S(2,1,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-bd-f2) * :<C-U>call EasyMotion#S(2,0,2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-Tl2) * <Esc>:<C-U>call EasyMotion#TL(2,1,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-Tl2) * :<C-U>call EasyMotion#TL(2,0,1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+x  <Plug>(easymotion-fln) * <Esc>:<C-U>call EasyMotion#SL(-1,1,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 80
+nos<Plug>(easymotion-fln) * :<C-U>call EasyMotion#SL(-1,0,0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/vim-easymotion/plugin/EasyMotion.vim line 78
+o  <Plug>(coc-classobj-a) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:false, '', ['Interface', 'Struct', 'Class']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 469
+o  <Plug>(coc-classobj-i) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:true, '', ['Interface', 'Struct', 'Class']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 468
+v  <Plug>(coc-classobj-a) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:false, visualmode(), ['Interface', 'Struct', 'Class']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 467
+v  <Plug>(coc-classobj-i) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:true, visualmode(), ['Interface', 'Struct', 'Class']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 466
+o  <Plug>(coc-funcobj-a) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:false, '', ['Method', 'Function']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 464
+o  <Plug>(coc-funcobj-i) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:true, '', ['Method', 'Function']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 463
+v  <Plug>(coc-funcobj-a) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:false, visualmode(), ['Method', 'Function']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 462
+v  <Plug>(coc-funcobj-i) * :<C-U>call coc#rpc#request('selectSymbolRange', [v:true, visualmode(), ['Method', 'Function']])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 461
+n  <Plug>(coc-cursors-position) * :<C-U>call coc#rpc#request('cursorsSelect', [bufnr('%'), 'position', 'n'])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 459
+n  <Plug>(coc-cursors-word) * :<C-U>call coc#rpc#request('cursorsSelect', [bufnr('%'), 'word', 'n'])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 458
+v  <Plug>(coc-cursors-range) * :<C-U>call coc#rpc#request('cursorsSelect', [bufnr('%'), 'range', visualmode()])<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 457
+n  <Plug>(coc-cursors-operator) * :<C-U>set operatorfunc=<SNR>64_CursorRangeFromSelected<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 456
+n  <Plug>(coc-refactor) * :<C-U>call       CocActionAsync('refactor')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 453
+n  <Plug>(coc-command-repeat) * :<C-U>call       CocAction('repeatCommand')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 452
+n  <Plug>(coc-float-jump) * :<C-U>call       coc#util#float_jump()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 451
+n  <Plug>(coc-float-hide) * :<C-U>call       coc#util#float_hide()<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 450
+n  <Plug>(coc-fix-current) * :<C-U>call       CocActionAsync('doQuickfix')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 449
+n  <Plug>(coc-openlink) * :<C-U>call       CocActionAsync('openLink')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 448
+n  <Plug>(coc-references) * :<C-U>call       CocActionAsync('jumpReferences')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 447
+n  <Plug>(coc-type-definition) * :<C-U>call       CocActionAsync('jumpTypeDefinition')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 446
+n  <Plug>(coc-implementation) * :<C-U>call       CocActionAsync('jumpImplementation')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 445
+n  <Plug>(coc-declaration) * :<C-U>call       CocActionAsync('jumpDeclaration')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 444
+n  <Plug>(coc-definition) * :<C-U>call       CocActionAsync('jumpDefinition')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 443
+n  <Plug>(coc-diagnostic-prev-error) * :<C-U>call       CocActionAsync('diagnosticPrevious', 'error')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 442
+n  <Plug>(coc-diagnostic-next-error) * :<C-U>call       CocActionAsync('diagnosticNext',     'error')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 441
+n  <Plug>(coc-diagnostic-prev) * :<C-U>call       CocActionAsync('diagnosticPrevious')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 440
+n  <Plug>(coc-diagnostic-next) * :<C-U>call       CocActionAsync('diagnosticNext')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 439
+n  <Plug>(coc-diagnostic-info) * :<C-U>call       CocActionAsync('diagnosticInfo')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 438
+n  <Plug>(coc-format) * :<C-U>call       CocActionAsync('format')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 437
+n  <Plug>(coc-format-selected) * :<C-U>set        operatorfunc=<SNR>64_FormatFromSelected<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 436
+n  <Plug>(coc-rename) * :<C-U>call       CocActionAsync('rename')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 435
+n  <Plug>(coc-codeaction-line) * :<C-U>call       CocActionAsync('codeAction',         'n')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 434
+n  <Plug>(coc-codeaction) * :<C-U>call       CocActionAsync('codeAction',         '')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 433
+n  <Plug>(coc-codeaction-selected) * :<C-U>set        operatorfunc=<SNR>64_CodeActionFromSelected<CR>g@
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 432
+v  <Plug>(coc-codeaction-selected) * :<C-U>call       CocActionAsync('codeAction',         visualmode())<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 431
+v  <Plug>(coc-format-selected) * :<C-U>call       CocActionAsync('formatSelected',     visualmode())<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 430
+n  <Plug>(coc-codelens-action) * :<C-U>call       CocActionAsync('codeLensAction')<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 429
+n  <Plug>(coc-range-select) * :<C-U>call       CocActionAsync('rangeSelect',     '', v:true)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 428
+v  <Plug>(coc-range-select-backward) * :<C-U>call       CocActionAsync('rangeSelect',     visualmode(), v:false)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 427
+v  <Plug>(coc-range-select) * :<C-U>call       CocActionAsync('rangeSelect',     visualmode(), v:true)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/coc.nvim/plugin/coc.vim line 426
+v  <Plug>LeaderfGtagsGrep * :<C-U><C-R>=leaderf#Gtags#startCmdline(2, 1, 'g')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 133
+v  <Plug>LeaderfGtagsSymbol * :<C-U><C-R>=leaderf#Gtags#startCmdline(2, 1, 's')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 132
+v  <Plug>LeaderfGtagsReference * :<C-U><C-R>=leaderf#Gtags#startCmdline(2, 1, 'r')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 131
+v  <Plug>LeaderfGtagsDefinition * :<C-U><C-R>=leaderf#Gtags#startCmdline(2, 1, 'd')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 130
+no <Plug>LeaderfGtagsGrep * :<C-U><C-R>=leaderf#Gtags#startCmdline(0, 1, 'g')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 128
+no <Plug>LeaderfGtagsSymbol * :<C-U><C-R>=leaderf#Gtags#startCmdline(0, 1, 's')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 127
+no <Plug>LeaderfGtagsReference * :<C-U><C-R>=leaderf#Gtags#startCmdline(0, 1, 'r')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 126
+no <Plug>LeaderfGtagsDefinition * :<C-U><C-R>=leaderf#Gtags#startCmdline(0, 1, 'd')<CR><CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 125
+v  <Plug>LeaderfRgBangVisualRegexBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 1, 1, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 123
+v  <Plug>LeaderfRgBangVisualRegexNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 122
+v  <Plug>LeaderfRgBangVisualLiteralBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 1, 0, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 121
+v  <Plug>LeaderfRgBangVisualLiteralNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 1, 0, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 120
+v  <Plug>LeaderfRgVisualRegexBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 0, 1, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 118
+v  <Plug>LeaderfRgVisualRegexNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 0, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 117
+v  <Plug>LeaderfRgVisualLiteralBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 0, 0, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 116
+v  <Plug>LeaderfRgVisualLiteralNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(2, 0, 0, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 115
+   <Plug>LeaderfRgWORDRegexBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(1, 0, 1, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 113
+   <Plug>LeaderfRgWORDRegexNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(1, 0, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 112
+   <Plug>LeaderfRgWORDLiteralBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(1, 0, 0, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 111
+   <Plug>LeaderfRgWORDLiteralNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(1, 0, 0, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 110
+   <Plug>LeaderfRgBangCwordRegexBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 1, 1, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 108
+   <Plug>LeaderfRgBangCwordRegexNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 1, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 107
+   <Plug>LeaderfRgBangCwordLiteralBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 1, 0, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 106
+   <Plug>LeaderfRgBangCwordLiteralNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 1, 0, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 105
+   <Plug>LeaderfRgCwordRegexBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 0, 1, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 103
+   <Plug>LeaderfRgCwordRegexNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 0, 1, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 102
+   <Plug>LeaderfRgCwordLiteralBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 0, 0, 1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 101
+   <Plug>LeaderfRgCwordLiteralNoBoundary * :<C-U><C-R>=leaderf#Rg#startCmdline(0, 0, 0, 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 100
+   <Plug>LeaderfRgPrompt * :<C-U>Leaderf rg -e<Space>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 99
+   <Plug>LeaderfMruCwdFullScreen * :<C-U>Leaderf mru --fullScreen<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 97
+   <Plug>LeaderfMruCwdRight * :<C-U>Leaderf mru --right<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 96
+   <Plug>LeaderfMruCwdLeft * :<C-U>Leaderf mru --left<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 95
+   <Plug>LeaderfMruCwdBottom * :<C-U>Leaderf mru --bottom<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 94
+   <Plug>LeaderfMruCwdTop * :<C-U>Leaderf mru --top<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 93
+   <Plug>LeaderfBufferFullScreen * :<C-U>Leaderf buffer --fullScreen<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 91
+   <Plug>LeaderfBufferRight * :<C-U>Leaderf buffer --right<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 90
+   <Plug>LeaderfBufferLeft * :<C-U>Leaderf buffer --left<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 89
+   <Plug>LeaderfBufferBottom * :<C-U>Leaderf buffer --bottom<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 88
+   <Plug>LeaderfBufferTop * :<C-U>Leaderf buffer --top<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 87
+   <Plug>LeaderfFileFullScreen * :<C-U>Leaderf file --fullScreen<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 85
+   <Plug>LeaderfFileRight * :<C-U>Leaderf file --right<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 84
+   <Plug>LeaderfFileLeft * :<C-U>Leaderf file --left<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 83
+   <Plug>LeaderfFileBottom * :<C-U>Leaderf file --bottom<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 82
+   <Plug>LeaderfFileTop * :<C-U>Leaderf file --top<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/LeaderF/plugin/leaderf.vim line 81
+o  <Plug>(fzf-maps-o) * <C-C>:<C-U>call fzf#vim#maps('o', 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/fzf.vim/plugin/fzf.vim line 153
+x  <Plug>(fzf-maps-x) * :<C-U>call fzf#vim#maps('x', 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/fzf.vim/plugin/fzf.vim line 152
+n  <Plug>(fzf-maps-n) * :<C-U>call fzf#vim#maps('n', 0)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/fzf.vim/plugin/fzf.vim line 150
+   <Plug>lightline#bufferline#delete(10) * :call lightline#bufferline#delete(10)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 359
+   <Plug>lightline#bufferline#delete(9) * :call lightline#bufferline#delete(9)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 358
+   <Plug>lightline#bufferline#delete(8) * :call lightline#bufferline#delete(8)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 357
+   <Plug>lightline#bufferline#delete(7) * :call lightline#bufferline#delete(7)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 356
+   <Plug>lightline#bufferline#delete(6) * :call lightline#bufferline#delete(6)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 355
+   <Plug>lightline#bufferline#delete(5) * :call lightline#bufferline#delete(5)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 354
+   <Plug>lightline#bufferline#delete(4) * :call lightline#bufferline#delete(4)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 353
+   <Plug>lightline#bufferline#delete(3) * :call lightline#bufferline#delete(3)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 352
+   <Plug>lightline#bufferline#delete(2) * :call lightline#bufferline#delete(2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 351
+   <Plug>lightline#bufferline#delete(1) * :call lightline#bufferline#delete(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 350
+   <Plug>lightline#bufferline#go(10) * :call lightline#bufferline#go(10)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 348
+   <Plug>lightline#bufferline#go(9) * :call lightline#bufferline#go(9)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 347
+   <Plug>lightline#bufferline#go(8) * :call lightline#bufferline#go(8)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 346
+   <Plug>lightline#bufferline#go(7) * :call lightline#bufferline#go(7)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 345
+   <Plug>lightline#bufferline#go(6) * :call lightline#bufferline#go(6)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 344
+   <Plug>lightline#bufferline#go(5) * :call lightline#bufferline#go(5)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 343
+   <Plug>lightline#bufferline#go(4) * :call lightline#bufferline#go(4)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 342
+   <Plug>lightline#bufferline#go(3) * :call lightline#bufferline#go(3)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 341
+   <Plug>lightline#bufferline#go(2) * :call lightline#bufferline#go(2)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 340
+   <Plug>lightline#bufferline#go(1) * :call lightline#bufferline#go(1)<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/plugged/lightline-bufferline/autoload/lightline/bufferline.vim line 339
+   <Right>     * :vertical resize+5<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 68
+   <Left>      * :vertical resize-5<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 67
+   <Down>      * :res -5<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 66
+   <Up>        * :res +5<CR>
+	最近修改于 ~/.config/nvimConfig/custom20200922/basic_mapping.vim line 65

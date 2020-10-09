@@ -1,0 +1,9 @@
+[file-build]
+command=dotnet build
+cwd=$(VIM_FILEDIR)
+output=quickfix
+
+[file-run]
+command=dotnet run
+cwd=$(VIM_FILEDIR)
+output=terminal

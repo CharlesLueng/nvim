@@ -1,0 +1,12 @@
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/bin/Debug/netcoreapp3.1/testDotnet.deps.json
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/bin/Debug/netcoreapp3.1/testDotnet.runtimeconfig.json
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/bin/Debug/netcoreapp3.1/testDotnet.runtimeconfig.dev.json
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/bin/Debug/netcoreapp3.1/testDotnet.dll
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/bin/Debug/netcoreapp3.1/testDotnet.pdb
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/obj/Debug/netcoreapp3.1/testDotnet.csprojAssemblyReference.cache
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/obj/Debug/netcoreapp3.1/testDotnet.csproj.CoreCompileInputs.cache
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/obj/Debug/netcoreapp3.1/testDotnet.AssemblyInfoInputs.cache
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/obj/Debug/netcoreapp3.1/testDotnet.AssemblyInfo.cs
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/obj/Debug/netcoreapp3.1/testDotnet.dll
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/obj/Debug/netcoreapp3.1/testDotnet.pdb
+/Users/charles/.config/nvimConfig/custom20200922/test/testDotnet/obj/Debug/netcoreapp3.1/testDotnet.genruntimeconfig.cache
