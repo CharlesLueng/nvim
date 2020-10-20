@@ -22,7 +22,7 @@ endif
 " Tell ALE to use OmniSharp for linting C# files, and no other linters.
 " let g:ale_linters = { 'cs': ['OmniSharp'] }
 
-let g:OmniSharp_selector_ui = 'fzf'    " Use fzf.vim
+" let g:OmniSharp_selector_ui = 'fzf'    " Use fzf.vim
 
 augroup omnisharp_commands
 	autocmd!
@@ -33,38 +33,71 @@ augroup omnisharp_commands
 	" autocmd CursorHold *.cs OmniSharpTypeLookup
 
 	" The following commands are contextual, based on the cursor position.
-	autocmd FileType cs nmap <silent> <buffer> gd <Plug>(omnisharp_go_to_definition)
-	autocmd FileType cs nmap <silent> <buffer> fu <Plug>(omnisharp_find_usages)
-	autocmd FileType cs nmap <silent> <buffer> gi <Plug>(omnisharp_find_implementations)
-	autocmd FileType cs nmap <silent> <buffer> <LEADER>pd <Plug>(omnisharp_preview_definition)
-	autocmd FileType cs nmap <silent> <buffer> <LEADER>pi <Plug>(omnisharp_preview_implementations)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>ot <Plug>(omnisharp_type_lookup)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>od <Plug>(omnisharp_documentation)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>of <Plug>(omnisharp_find_symbol)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>qx <Plug>(omnisharp_fix_usings)
-	autocmd FileType cs nmap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
-	autocmd FileType cs imap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
+	" autocmd FileType cs nmap <silent> <buffer> gd <Plug>(omnisharp_go_to_definition)
+	" autocmd FileType cs nmap <silent> <buffer> fu <Plug>(omnisharp_find_usages)
+	" autocmd FileType cs nmap <silent> <buffer> gi <Plug>(omnisharp_find_implementations)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>pd <Plug>(omnisharp_preview_definition)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>pi <Plug>(omnisharp_preview_implementations)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>ot <Plug>(omnisharp_type_lookup)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>od <Plug>(omnisharp_documentation)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>of <Plug>(omnisharp_find_symbol)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>qx <Plug>(omnisharp_fix_usings)
+	" autocmd FileType cs nmap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
+	" autocmd FileType cs imap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
+  "
+	" " Navigate up and down by method/property/field
+	" autocmd FileType cs nmap <silent> <buffer> [[ <Plug>(omnisharp_navigate_up)
+	" autocmd FileType cs nmap <silent> <buffer> ]] <Plug>(omnisharp_navigate_down)
+	" " Find all code errors/warnings for the current solution and populate the quickfix window
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>cc <Plug>(omnisharp_global_code_check)
+	" " Contextual code actions (uses fzf, CtrlP or unite.vim selector when available)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>ac <Plug>(omnisharp_code_actions)
+	" autocmd FileType cs xmap <silent> <buffer> <LocalLeader>ac <Plug>(omnisharp_code_actions)
+	" " Repeat the last code action performed (does not use a selector)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>o. <Plug>(omnisharp_code_action_repeat)
+	" autocmd FileType cs xmap <silent> <buffer> <LocalLeader>o. <Plug>(omnisharp_code_action_repeat)
+  "
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>o= <Plug>(omnisharp_code_format)
+  "
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>rn <Plug>(omnisharp_rename)
+  "
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>osre <Plug>(omnisharp_restart_server)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>osst <Plug>(omnisharp_start_server)
+	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>ossp <Plug>(omnisharp_stop_server)
 
-	" Navigate up and down by method/property/field
-	autocmd FileType cs nmap <silent> <buffer> [[ <Plug>(omnisharp_navigate_up)
-	autocmd FileType cs nmap <silent> <buffer> ]] <Plug>(omnisharp_navigate_down)
-	" Find all code errors/warnings for the current solution and populate the quickfix window
-	autocmd FileType cs nmap <silent> <buffer> <Leader>cc <Plug>(omnisharp_global_code_check)
-	" Contextual code actions (uses fzf, CtrlP or unite.vim selector when available)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>ac <Plug>(omnisharp_code_actions)
-	autocmd FileType cs xmap <silent> <buffer> <Leader>ac <Plug>(omnisharp_code_actions)
-	" Repeat the last code action performed (does not use a selector)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>o. <Plug>(omnisharp_code_action_repeat)
-	autocmd FileType cs xmap <silent> <buffer> <Leader>o. <Plug>(omnisharp_code_action_repeat)
-
-	autocmd FileType cs nmap <silent> <buffer> <Leader>o= <Plug>(omnisharp_code_format)
-
-	autocmd FileType cs nmap <silent> <buffer> <Leader>rn <Plug>(omnisharp_rename)
-
-	autocmd FileType cs nmap <silent> <buffer> <Leader>osre <Plug>(omnisharp_restart_server)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>osst <Plug>(omnisharp_start_server)
-	autocmd FileType cs nmap <silent> <buffer> <Leader>ossp <Plug>(omnisharp_stop_server)
+	autocmd BufEnter *.cs call s:setMenu()
 augroup END
+
+function! s:setMenu()
+
+	let g:which_key_space['l'] = {
+				\ 'name': '+Language',
+				\ 'd': ['<Plug>(omnisharp_documentation)', 'show-doc'],
+				\ 'g': {
+				\ 'name': '+Navigate',
+				\ 'd': ['<Plug>(omnisharp_go_to_definition)', 'go-to-definition'],
+				\ 'u': ['<Plug>(omnisharp_find_usages)', 'find-usages'],
+				\ 'i': ['<Plug>(omnisharp_find_implementations)', 'find-implementations'],
+				\ 's': ['<Plug>(omnisharp_find_symbol)', 'find-symbol'],
+				\},
+				\ 'p': {
+				\ 'name': '+Preview',
+				\ 'd': ['<Plug>(omnisharp_preview_definition)', 'preview-definition'],
+				\ 'i': ['<Plug>(omnisharp_preview_implementations)', 'preview-implementations'],
+				\},
+				\ 's': {
+				\ 'name': '+Server',
+				\ 'r': ['<Plug>(omnisharp_restart_server)', 'restart-server'],
+				\ 's': ['<Plug>(omnisharp_start_server)', 'start-server'],
+				\ 'S': ['<Plug>(omnisharp_stop_server)', 'stop-server'],
+				\},
+				\ 'f': ['<Plug>(omnisharp_code_format)', 'format'],
+				\ 'a': ['<Plug>(omnisharp_code_actions)', 'code-action'],
+				\ 'r': ['<Plug>(omnisharp_rename)', 'rename'],
+				\ 'x': ['<Plug>(omnisharp_fix_usings)', 'fix-usings'],
+				\ 't': ['<Plug>(omnisharp_type_lookup)', 'type-lookup'],
+				\}
+endfunction
 
 " Enable snippet completion, using the ultisnips plugin
 " let g:OmniSharp_want_snippet=1

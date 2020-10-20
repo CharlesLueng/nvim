@@ -56,7 +56,7 @@ endif
 
  " Press space twice to jump to the next '<++>' and edit it
  " noremap <LEADER><LEADER> <Esc>/<++><CR>:nohlsearch<CR>c4l
- noremap <SPACE><SPACE> <Esc>/<++><CR>:nohlsearch<CR>c4l
+ noremap <localleader><localleader> <Esc>/<++><CR>:nohlsearch<CR>c4l
 
  " Spelling Check with <space>sc
  noremap <LEADER>sc :set spell!<CR>
@@ -66,7 +66,7 @@ endif
 "  autocmd BufEnter * silent! lcd %:p:h
 
  " Call figlet
- noremap <SPACE>tx :r !figlet
+ noremap <localleader>tx :r !figlet
 
  " find and replace
  noremap \s :%s//g<left><left>
@@ -94,9 +94,9 @@ set re=0
  	source ~/.config/nvim/pluginConfig/rainbow.vim
  endif
 
- if !empty(glob('~/.config/nvim/pluginConfig/fzf.vim'))
- 	source ~/.config/nvim/pluginConfig/fzf.vim
- endif
+"  if !empty(glob('~/.config/nvim/pluginConfig/fzf.vim'))
+"  	source ~/.config/nvim/pluginConfig/fzf.vim
+"  endif
 
  if !empty(glob('~/.config/nvim/pluginConfig/leaderf.vim'))
  	source ~/.config/nvim/pluginConfig/leaderf.vim
@@ -144,6 +144,10 @@ set re=0
 
  if !empty(glob('~/.config/nvim/pluginConfig/ale.vim'))
  	source ~/.config/nvim/pluginConfig/ale.vim
+ endif
+
+ if !empty(glob('~/.config/nvim/pluginConfig/which_key.vim'))
+ 	source ~/.config/nvim/pluginConfig/which_key.vim
  endif
 
  for rcfile in split(globpath("$HOME/.config/nvim/language", "*.vim"), '\n')

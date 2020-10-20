@@ -13,10 +13,10 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'luochen1990/rainbow'
 Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'RRethy/vim-illuminate'
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 
 " File navigation
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf.vim'
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 Plug 'kevinhwang91/rnvimr'
 Plug 'airblade/vim-rooter'
@@ -49,7 +49,7 @@ Plug 'mhinz/vim-startify'
 " Find & Replace
 Plug 'brooth/far.vim', { 'on': ['F', 'Far', 'Fardo'] }
 
-" Plug 'liuchengxu/vim-which-key'
+Plug 'liuchengxu/vim-which-key'
 
 " Autoformat
 Plug 'Chiel92/vim-autoformat'

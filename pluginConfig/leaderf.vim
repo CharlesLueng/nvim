@@ -16,8 +16,14 @@ let g:Lf_CommandMap = {
 let g:Lf_UseVersionControlTool = 0
 let g:Lf_IgnoreCurrentBufferName = 1
 let g:Lf_WildIgnore = {
-			\ 'dir': ['.git', 'vendor', 'bin', 'obj', 'node_modules'],
+			\ 'dir': ['.git', 'vendor', 'bin', 'obj', 'node_modules', 'packages', 'dist', '.svn'],
 			\ 'file': ['__vim_project_root']
 			\}
 let g:Lf_UseMemoryCache = 0
 let g:Lf_UseCache = 0
+" let g:Lf_WindowPosition = 'popup'
+
+
+" nmap <silent> <localleader>p :Leaderf file<cr>
+nmap <silent> <c-p> :exe "Leaderf file " . expand("%:p:h")<cr>
+nmap <silent> <c-b> :Leaderf buffer<cr>

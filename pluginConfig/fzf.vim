@@ -12,7 +12,7 @@ noremap <silent> <C-h> :History<CR>
 "noremap <C-t> :BTags<CR>
 noremap <silent> <C-l> :Lines<CR>
 noremap <silent> <C-b> :Buffers<CR>
-noremap <leader>; :History:<CR>
+noremap <Localleader>; :History:<CR>
 
 let g:fzf_preview_window = 'right:60%'
 let g:fzf_commits_log_options = '--graph --color=always --format="%C(auto)%h%d %s %C(black)%C(bold)%cr"'

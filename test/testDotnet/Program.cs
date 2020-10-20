@@ -2,15 +2,15 @@
 
 namespace testDotnet
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			Console.WriteLine("Hello World!");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
 
-			test.Log("test");
-			test.Log("测试");
-		}
+            Test.Log("123123");
+            Test.Log("23434678");
+        }
 
-	}
+    }
 }
