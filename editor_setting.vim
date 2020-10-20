@@ -118,3 +118,8 @@ set runtimepath+=~/.config/nvim/indent
 "   let &rtp = g:_spacevim_root_dir . ',' . $VIMRUNTIME
 " endif
 
+let g:isWindows = 0
+let g:islinux = 0
+if(has('win32')||has('win64')||has('win95')||has('win16'))
+	let g:isWindows = 1
+endif

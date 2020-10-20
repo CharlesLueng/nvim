@@ -2,7 +2,7 @@
 " === Vista.vim
 " ===
 noremap <LEADER>v :Vista coc<CR>
-noremap <c-t> :silent! Vista finder coc<CR>
+noremap <c-t> :LeaderfBufTag<CR>
 let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
 let g:vista_default_executive = 'ctags'
 let g:vista_fzf_preview = ['right:50%']

@@ -2,7 +2,7 @@
 " ===
 " === Install Plugins with Vim-Plug
 " ===
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.config/plugged')
 
 " Pretty Dress
 " Plug 'bling/vim-bufferline'
@@ -11,14 +11,22 @@ Plug 'mengelbrecht/lightline-bufferline'
 Plug 'josa42/vim-lightline-coc'
 Plug 'ryanoasis/vim-devicons'
 Plug 'luochen1990/rainbow'
-Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
+if(g:isWindows == 0)
+	Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
+endif
+if(g:isWindows == 1)
+	Plug 'dense-analysis/ale'
+endif
 Plug 'RRethy/vim-illuminate'
 " Plug 'Yggdroot/indentLine'
 
 " File navigation
 " Plug 'junegunn/fzf.vim'
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
-Plug 'kevinhwang91/rnvimr'
+
+if(g:isWindows == 0)
+	Plug 'kevinhwang91/rnvimr'
+endif
 Plug 'airblade/vim-rooter'
 Plug 'pechorin/any-jump.vim'
 Plug 'liuchengxu/vista.vim'
@@ -94,7 +102,7 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'f-person/pubspec-assist-nvim', { 'for' : ['pubspec.yaml'] }
 
 " Check
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 
 " Swift
 Plug 'keith/swift.vim'

@@ -139,9 +139,10 @@ let g:which_key_space['f']= {
 			\ 'h': [':Leaderf mru', 'find-history'],
 			\ 'l': [':Leaderf line', 'find-line'],
 			\ ':': [':Leaderf cmdHistory', 'find-cmdHistory'],
-			\ 't': [':Leaderf function', 'find-function'],
+			\ 't': [':LeaderfBufTag', 'find-function'],
 			\ 'p': [':call FindFileOnCurrentFolder()', 'find-file'],
-			\ 'b': [':Leaderf buffer', 'find-buffer']
+			\ 'b': [':Leaderf buffer', 'find-buffer'],
+			\ 'v': [':Vista coc', 'tag-viewer']
 			\}
 
 let g:which_key_space['p'] = {
