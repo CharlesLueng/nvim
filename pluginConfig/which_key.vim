@@ -109,12 +109,22 @@ let g:which_key_space['t'] = {
 			\}
 
 " +Diagnostics
+if(g:isWindows == 0)
 let g:which_key_space['d'] = {
 			\ 'name': '+Diagnostics',
 			\ 'l': [':CocList diagnostics', 'diagnostics-list'],
 			\ 'k': ['<Plug>(coc-diagnostic-prev)', 'prev-diagnostics'],
 			\ 'j': ['<Plug>(coc-diagnostic-next)', 'next-diagnostics'],
 			\}
+else
+let g:which_key_space['d'] = {
+			\ 'name': '+Diagnostics',
+			\ 'l': [':ALEDetail', 'diagnostics-list'],
+			\ 'k': ['<Plug>(ale_previous_wrap)', 'prev-diagnostics'],
+			\ 'j': ['<Plug>(ale_next_wrap)', 'next-diagnostics'],
+			\ 's': [':ALEToggle', 'toggle-diagnostics']
+			\}
+endif
 
 " +Bookmark
 let g:which_key_space['m']= {
