@@ -78,7 +78,7 @@ let g:which_key_space['c'] = {
 				\ 'name': '+Task',
 				\ 'l': [':CocList tasks', 'task-list'],
 				\},
-				\ 'y': [':<C-u>CocList -A --normal yank', 'yank-list'],
+				\ 'y': [':CocList -A --normal yank', 'yank-list'],
 				\ 'd': [':call g:Show_documentation()', 'show-doc'],
 				\ 'r': ['<Plug>(coc-rename)', 'rename'],
 				\ 'a': ['<Plug>(coc-codeaction)', 'codeaction'],
