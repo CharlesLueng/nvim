@@ -143,6 +143,13 @@ let g:which_key_space['b']= {
 			\ 'f': [':Leaderf buffer', 'find-buffer'],
 			\}
 
+let g:which_key_space['j']= {
+			\ 'name': '+Jump',
+			\ 'j': [':AnyJump', 'any-jump'],
+			\ 'k': [':AnyJumpBack', 'any-jump-back'],
+			\ 'l': [':AnyJumpLastResults', 'any-jump-last-results']
+			\}
+
 let g:which_key_space['f']= {
 			\ 'name': '+Finder',
 			\ 'f': [':Leaderf rg', 'find-rg'],

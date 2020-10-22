@@ -157,7 +157,8 @@ for rcfile in split(globpath("$HOME/.config/nvim/language", "*.vim"), '\n')
 endfor
 
 
-colorscheme onehalfdark
+syntax on
+colorscheme onedark
 
 
 

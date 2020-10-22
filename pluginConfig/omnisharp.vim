@@ -65,7 +65,9 @@ augroup omnisharp_commands
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>osst <Plug>(omnisharp_start_server)
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>ossp <Plug>(omnisharp_stop_server)
 
-	autocmd BufEnter *.cs call s:setMenu()
+	" autocmd BufEnter *.cs call s:setMenu()
+
+	autocmd FileType cs call s:setMenu()
 augroup END
 
 function! s:setMenu()
