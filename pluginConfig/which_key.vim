@@ -15,7 +15,7 @@ let g:which_key_hspace = 25
 set timeoutlen=2000
 "
 call which_key#register('<Space>', "g:which_key_space")
-" call which_key#register(',', "g:which_key_leader")
+call which_key#register(',', "g:which_key_leader")
 call which_key#register('\\', "g:which_key_localleader")
 "
 " nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
@@ -25,7 +25,7 @@ call which_key#register('\\', "g:which_key_localleader")
 " nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
 " nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
 "
-" nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
+nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
 nnoremap <silent> <space> :<c-u>WhichKey '<space>'<CR>
 let g:which_key_space = {
 			\ '1': ['<Plug>lightline#bufferline#go(1)', 'Buffer-1'],
@@ -38,52 +38,53 @@ let g:which_key_space = {
 			\ '8': ['<Plug>lightline#bufferline#go(8)', 'Buffer-8'],
 			\ '9': ['<Plug>lightline#bufferline#go(9)', 'Buffer-9'],
 			\ '0': ['<Plug>lightline#bufferline#go(0)', 'Buffer-0'],
+			\ '<space>': [':echo 12', '123']
 			\}
 "
 let g:which_key_space['w'] = {
-      \ 'name' : '+windows' ,
-      \ 'w' : ['<C-W>w'     , 'other-window']          ,
-      \ 'd' : ['<C-W>c'     , 'delete-window']         ,
-      \ '-' : ['<C-W>s'     , 'split-window-below']    ,
-      \ '|' : ['<C-W>v'     , 'split-window-right']    ,
-      \ '2' : ['<C-W>v'     , 'layout-double-columns'] ,
-      \ 'h' : ['<C-W>h'     , 'window-left']           ,
-      \ 'j' : ['<C-W>j'     , 'window-below']          ,
-      \ 'l' : ['<C-W>l'     , 'window-right']          ,
-      \ 'k' : ['<C-W>k'     , 'window-up']             ,
-      \ 'H' : ['<C-W>5<'    , 'expand-window-left']    ,
-      \ 'J' : [':resize +5'  , 'expand-window-below']   ,
-      \ 'L' : ['<C-W>5>'    , 'expand-window-right']   ,
-      \ 'K' : [':resize -5'  , 'expand-window-up']      ,
-      \ '=' : ['<C-W>='     , 'balance-window']        ,
-      \ 's' : ['<C-W>s'     , 'split-window-below']    ,
-      \ 'v' : ['<C-W>v'     , 'split-window-below']    ,
-      \ '?' : ['Windows'    , 'fzf-window']            ,
-      \ 'c' : ['<Plug>(coc-rename)'    , 'coc-rename'],
-      \ }
+			\ 'name' : '+windows' ,
+			\ 'w' : ['<C-W>w'     , 'other-window']          ,
+			\ 'd' : ['<C-W>c'     , 'delete-window']         ,
+			\ '-' : ['<C-W>s'     , 'split-window-below']    ,
+			\ '|' : ['<C-W>v'     , 'split-window-right']    ,
+			\ '2' : ['<C-W>v'     , 'layout-double-columns'] ,
+			\ 'h' : ['<C-W>h'     , 'window-left']           ,
+			\ 'j' : ['<C-W>j'     , 'window-below']          ,
+			\ 'l' : ['<C-W>l'     , 'window-right']          ,
+			\ 'k' : ['<C-W>k'     , 'window-up']             ,
+			\ 'H' : ['<C-W>5<'    , 'expand-window-left']    ,
+			\ 'J' : [':resize +5'  , 'expand-window-below']   ,
+			\ 'L' : ['<C-W>5>'    , 'expand-window-right']   ,
+			\ 'K' : [':resize -5'  , 'expand-window-up']      ,
+			\ '=' : ['<C-W>='     , 'balance-window']        ,
+			\ 's' : ['<C-W>s'     , 'split-window-below']    ,
+			\ 'v' : ['<C-W>v'     , 'split-window-below']    ,
+			\ '?' : ['Windows'    , 'fzf-window']            ,
+			\ 'c' : ['<Plug>(coc-rename)'    , 'coc-rename'],
+			\ }
 
 " +Coc
 let g:which_key_space['c'] = {
-		\ 'name' : '+Coc',
-		\ 'c': [':CocCommand', 'command-list'],
-		\ 'e': [':CocList extensions', 'extentions-list'],
-		\ 'T': {
-				\ 'name': '+Todo',
-				\ 'n': [':CocCommand todolist.create', 'create-todo'],
-				\ 'l': [':CocList todolist', 'todo-list'],
-				\ 'd': [':CocCommand todolist.download', 'todo-download'],
-				\ 'u': [':CocCommand todolist.upload', 'todo-upload'],
-				\},
-		\ 't': {
-				\ 'name': '+Task',
-				\ 'l': [':CocList tasks', 'task-list'],
-				\},
-				\ 'y': [':CocList -A --normal yank', 'yank-list'],
-				\ 'd': [':call g:Show_documentation()', 'show-doc'],
-				\ 'r': ['<Plug>(coc-rename)', 'rename'],
-				\ 'a': ['<Plug>(coc-codeaction)', 'codeaction'],
-				\ 'x': ['<Plug>(coc-fix-current)', 'quickfix']
-		\}
+			\ 'name' : '+Coc',
+			\ 'c': [':CocCommand', 'command-list'],
+			\ 'e': [':CocList extensions', 'extentions-list'],
+			\ 'T': {
+			\ 'name': '+Todo',
+			\ 'n': [':CocCommand todolist.create', 'create-todo'],
+			\ 'l': [':CocList todolist', 'todo-list'],
+			\ 'd': [':CocCommand todolist.download', 'todo-download'],
+			\ 'u': [':CocCommand todolist.upload', 'todo-upload'],
+			\},
+			\ 't': {
+			\ 'name': '+Task',
+			\ 'l': [':CocList tasks', 'task-list'],
+			\},
+			\ 'y': [':CocList -A --normal yank', 'yank-list'],
+			\ 'd': [':call g:Show_documentation()', 'show-doc'],
+			\ 'r': ['<Plug>(coc-rename)', 'rename'],
+			\ 'a': ['<Plug>(coc-codeaction)', 'codeaction'],
+			\ 'x': ['<Plug>(coc-fix-current)', 'quickfix']
+			\}
 
 " +Tab
 let g:which_key_space['t'] = {
@@ -99,7 +100,7 @@ let g:which_key_space['t'] = {
 			\ '2': ['2gt', 'tab-2'],
 			\ '3': ['3gt', 'tab-3'],
 			\ '4': ['4gt', 'tab-4'],
-  		\ '5': ['5gt', 'tab-5'],
+			\ '5': ['5gt', 'tab-5'],
 			\ '6': ['6gt', 'tab-6'],
 			\ '7': ['7gt', 'tab-7'],
 			\ '8': ['8gt', 'tab-8'],
@@ -110,20 +111,20 @@ let g:which_key_space['t'] = {
 
 " +Diagnostics
 if(g:isWindows == 0)
-let g:which_key_space['d'] = {
-			\ 'name': '+Diagnostics',
-			\ 'l': [':CocList diagnostics', 'diagnostics-list'],
-			\ 'k': ['<Plug>(coc-diagnostic-prev)', 'prev-diagnostics'],
-			\ 'j': ['<Plug>(coc-diagnostic-next)', 'next-diagnostics'],
-			\}
+	let g:which_key_space['d'] = {
+				\ 'name': '+Diagnostics',
+				\ 'l': [':CocList diagnostics', 'diagnostics-list'],
+				\ 'k': ['<Plug>(coc-diagnostic-prev)', 'prev-diagnostics'],
+				\ 'j': ['<Plug>(coc-diagnostic-next)', 'next-diagnostics'],
+				\}
 else
-let g:which_key_space['d'] = {
-			\ 'name': '+Diagnostics',
-			\ 'l': [':ALEDetail', 'diagnostics-list'],
-			\ 'k': ['<Plug>(ale_previous_wrap)', 'prev-diagnostics'],
-			\ 'j': ['<Plug>(ale_next_wrap)', 'next-diagnostics'],
-			\ 's': [':ALEToggle', 'toggle-diagnostics']
-			\}
+	let g:which_key_space['d'] = {
+				\ 'name': '+Diagnostics',
+				\ 'l': [':ALEDetail', 'diagnostics-list'],
+				\ 'k': ['<Plug>(ale_previous_wrap)', 'prev-diagnostics'],
+				\ 'j': ['<Plug>(ale_next_wrap)', 'next-diagnostics'],
+				\ 's': [':ALEToggle', 'toggle-diagnostics']
+				\}
 endif
 
 " +Bookmark
@@ -168,17 +169,17 @@ let g:which_key_space['p'] = {
 			\}
 
 function! Clear_buffers() abort
-  if confirm('Kill all other buffers?', "&Yes\n&No\n&Cancel") == 1
-    let blisted = filter(range(1, bufnr('$')), 'buflisted(v:val)')
-    for i in blisted
-      if i != bufnr('%')
-        try 
-          exe 'bw ' . i
-        catch
-        endtry
-      endif
-    endfor
-  endif
+	if confirm('Kill all other buffers?', "&Yes\n&No\n&Cancel") == 1
+		let blisted = filter(range(1, bufnr('$')), 'buflisted(v:val)')
+		for i in blisted
+			if i != bufnr('%')
+				try
+					exe 'bw ' . i
+				catch
+				endtry
+			endif
+		endfor
+	endif
 endfunction
 
 
@@ -197,20 +198,51 @@ function! FindFileOnCurrentFolder()
 endfunction
 
 function! ToggleWindowHorizontalVerticalSplit()
-  if !exists('t:splitType')
-    let t:splitType = 'vertical'
-  endif
+	if !exists('t:splitType')
+		let t:splitType = 'vertical'
+	endif
 
-  if t:splitType == 'vertical' " is vertical switch to horizontal
-    windo wincmd K
-    let t:splitType = 'horizontal'
+	if t:splitType == 'vertical' " is vertical switch to horizontal
+		windo wincmd K
+		let t:splitType = 'horizontal'
 
-  else " is horizontal switch to vertical
-    windo wincmd H
-    let t:splitType = 'vertical'
-  endif
+	else " is horizontal switch to vertical
+		windo wincmd H
+		let t:splitType = 'vertical'
+	endif
 endfunction
 
-autocmd BufLeave * let g:which_key_space['l'] = {'name': '+Language'}
+let g:which_key_leader = {}
+
+let g:which_key_space['l'] = {'name': '+Language'}
+
+" autocmd BufLeave * let g:which_key_space['l'] = {'name': '+Language'}
+
 
 " replace <++>
+
+
+" switch which key with filetype
+" Demo
+" let g:which_key_language = {
+" 			\ "cs": {
+" 			\ "j": [':OmniSharpTypeLookup', "TypeLookup"]
+" 			\}
+" 			\}
+let g:which_key_language = {}
+
+autocmd BufEnter * call SetFileTypeWhichKey()
+
+function! SetFileTypeWhichKey()
+	let s:default_which_key = {'name': '+Language'}
+	if(has_key(g:which_key_language, &filetype))
+		let s:which_key = get(g:which_key_language, &filetype)
+		let s:new_which_key = extend(s:default_which_key, s:which_key)
+
+		let g:which_key_space['l'] = s:new_which_key
+		let g:which_key_leader = s:new_which_key
+	else
+		let g:which_key_space['l'] = s:default_which_key
+		let g:which_key_leader = s:default_which_key
+	endif
+endfunction

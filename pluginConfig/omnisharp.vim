@@ -44,7 +44,7 @@ augroup omnisharp_commands
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>qx <Plug>(omnisharp_fix_usings)
 	" autocmd FileType cs nmap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
 	" autocmd FileType cs imap <silent> <buffer> <C-\> <Plug>(omnisharp_signature_help)
-  "
+	"
 	" " Navigate up and down by method/property/field
 	" autocmd FileType cs nmap <silent> <buffer> [[ <Plug>(omnisharp_navigate_up)
 	" autocmd FileType cs nmap <silent> <buffer> ]] <Plug>(omnisharp_navigate_down)
@@ -56,50 +56,20 @@ augroup omnisharp_commands
 	" " Repeat the last code action performed (does not use a selector)
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>o. <Plug>(omnisharp_code_action_repeat)
 	" autocmd FileType cs xmap <silent> <buffer> <LocalLeader>o. <Plug>(omnisharp_code_action_repeat)
-  "
+	"
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>o= <Plug>(omnisharp_code_format)
-  "
+	"
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>rn <Plug>(omnisharp_rename)
-  "
+	"
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>osre <Plug>(omnisharp_restart_server)
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>osst <Plug>(omnisharp_start_server)
 	" autocmd FileType cs nmap <silent> <buffer> <LocalLeader>ossp <Plug>(omnisharp_stop_server)
 
 	" autocmd BufEnter *.cs call s:setMenu()
 
-	autocmd FileType cs call s:setMenu()
+	" autocmd FileType cs call s:setMenu()
 augroup END
 
-function! s:setMenu()
-
-	let g:which_key_space['l'] = {
-				\ 'name': '+Language',
-				\ 'd': ['<Plug>(omnisharp_documentation)', 'show-doc'],
-				\ 'g': {
-				\ 'name': '+Navigate',
-				\ 'd': ['<Plug>(omnisharp_go_to_definition)', 'go-to-definition'],
-				\ 'u': ['<Plug>(omnisharp_find_usages)', 'find-usages'],
-				\ 'i': ['<Plug>(omnisharp_find_implementations)', 'find-implementations'],
-				\ 's': ['<Plug>(omnisharp_find_symbol)', 'find-symbol'],
-				\},
-				\ 'p': {
-				\ 'name': '+Preview',
-				\ 'd': ['<Plug>(omnisharp_preview_definition)', 'preview-definition'],
-				\ 'i': ['<Plug>(omnisharp_preview_implementations)', 'preview-implementations'],
-				\},
-				\ 's': {
-				\ 'name': '+Server',
-				\ 'r': ['<Plug>(omnisharp_restart_server)', 'restart-server'],
-				\ 's': ['<Plug>(omnisharp_start_server)', 'start-server'],
-				\ 'S': ['<Plug>(omnisharp_stop_server)', 'stop-server'],
-				\},
-				\ 'f': ['<Plug>(omnisharp_code_format)', 'format'],
-				\ 'a': ['<Plug>(omnisharp_code_actions)', 'code-action'],
-				\ 'r': ['<Plug>(omnisharp_rename)', 'rename'],
-				\ 'x': ['<Plug>(omnisharp_fix_usings)', 'fix-usings'],
-				\ 't': ['<Plug>(omnisharp_type_lookup)', 'type-lookup'],
-				\}
-endfunction
 
 " Enable snippet completion, using the ultisnips plugin
 " let g:OmniSharp_want_snippet=1

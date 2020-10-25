@@ -59,7 +59,7 @@ endif
 noremap <localleader><localleader> <Esc>/<++><CR>:nohlsearch<CR>c4l
 
 " Spelling Check with <space>sc
-noremap <LEADER>sc :set spell!<CR>
+" noremap <LEADER>sc :set spell!<CR>
 
 
 " Auto change directory to current dir
@@ -72,11 +72,14 @@ noremap <localleader>tx :r !figlet
 noremap \s :%s//g<left><left>
 
 " set wrap
-noremap <LEADER>sw :set wrap<CR>
+" noremap <LEADER>sw :set wrap<CR>
 
 
 set re=0
 
+if !empty(glob('~/.config/nvim/pluginConfig/which_key.vim'))
+	source ~/.config/nvim/pluginConfig/which_key.vim
+endif
 
 if !empty(glob('~/.config/nvim/pluginConfig/lightline.vim'))
 	source ~/.config/nvim/pluginConfig/lightline.vim
@@ -148,9 +151,6 @@ if(g:isWindows)
 	endif
 endif
 
-if !empty(glob('~/.config/nvim/pluginConfig/which_key.vim'))
-	source ~/.config/nvim/pluginConfig/which_key.vim
-endif
 
 for rcfile in split(globpath("$HOME/.config/nvim/language", "*.vim"), '\n')
 	execute('source '.rcfile)
