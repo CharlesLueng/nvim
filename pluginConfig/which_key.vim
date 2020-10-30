@@ -38,7 +38,7 @@ let g:which_key_space = {
 			\ '8': ['<Plug>lightline#bufferline#go(8)', 'Buffer-8'],
 			\ '9': ['<Plug>lightline#bufferline#go(9)', 'Buffer-9'],
 			\ '0': ['<Plug>lightline#bufferline#go(0)', 'Buffer-0'],
-			\ '/': [':nohlsearch', 'nohlsearch'],
+			\ '/': [':set nohlsearch', 'nohlsearch'],
 			\}
 "
 let g:which_key_space['w'] = {
