@@ -1,4 +1,4 @@
-map <Localleader>il :IndentLinesToggle<CR>
+map <leader>il :IndentLinesToggle<CR>
 
 " let g:indentLine_enabled=1
 " let g:indentLine_setColors=0

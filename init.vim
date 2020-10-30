@@ -56,7 +56,7 @@ endif
 
 " Press space twice to jump to the next '<++>' and edit it
 " noremap <LEADER><LEADER> <Esc>/<++><CR>:nohlsearch<CR>c4l
-noremap <localleader><localleader> <Esc>/<++><CR>:nohlsearch<CR>c4l
+noremap <leader>= <Esc>/<++><CR>:nohlsearch<CR>c4l
 
 " Spelling Check with <space>sc
 " noremap <LEADER>sc :set spell!<CR>
@@ -66,7 +66,7 @@ noremap <localleader><localleader> <Esc>/<++><CR>:nohlsearch<CR>c4l
 "  autocmd BufEnter * silent! lcd %:p:h
 
 " Call figlet
-noremap <localleader>tx :r !figlet
+noremap <leader>tx :r !figlet
 
 " find and replace
 noremap \s :%s//g<left><left>

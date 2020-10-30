@@ -25,7 +25,7 @@ call which_key#register('\\', "g:which_key_localleader")
 " nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
 " nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
 "
-nnoremap <silent> <leader> :<c-u>WhichKey ','<CR>
+nnoremap <silent> <localleader> :<c-u>WhichKey ','<CR>
 nnoremap <silent> <space> :<c-u>WhichKey '<space>'<CR>
 let g:which_key_space = {
 			\ '1': ['<Plug>lightline#bufferline#go(1)', 'Buffer-1'],
@@ -38,7 +38,7 @@ let g:which_key_space = {
 			\ '8': ['<Plug>lightline#bufferline#go(8)', 'Buffer-8'],
 			\ '9': ['<Plug>lightline#bufferline#go(9)', 'Buffer-9'],
 			\ '0': ['<Plug>lightline#bufferline#go(0)', 'Buffer-0'],
-			\ '<space>': [':echo 12', '123']
+			\ '/': [':nohlsearch', 'nohlsearch'],
 			\}
 "
 let g:which_key_space['w'] = {

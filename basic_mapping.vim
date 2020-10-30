@@ -4,8 +4,8 @@
 " ===
 " Set <LEADER> as <SPACE>, ; as :
 " let mapleader=" "
-let mapleader = ","
-let maplocalleader = "\\"
+let mapleader = "\\"
+let maplocalleader = ","
 
 noremap ; :
 
@@ -34,7 +34,8 @@ nnoremap < <<
 nnoremap > >>
 
 " Search
-noremap <localleader>/ :nohlsearch<CR>
+" noremap <localleader>/ :nohlsearch<CR>
+
 
 
 " Folding
@@ -80,7 +81,7 @@ noremap B 5b
 "  noremap <leader>srv <C-w>b<C-w>H
 
  " Press <SPACE> + q to close the window below the current window
- noremap <localleader>q <C-w>j:q<CR>
+"  noremap <localleader>q <C-w>j:q<CR>
 "  noremap <SPACE>d :bd<CR>
 
 
