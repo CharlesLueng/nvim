@@ -15,7 +15,7 @@ let g:which_key_hspace = 25
 set timeoutlen=2000
 "
 call which_key#register('<Space>', "g:which_key_space")
-call which_key#register(',', "g:which_key_leader")
+call which_key#register(',', "gndows:which_key_leader")
 call which_key#register('\\', "g:which_key_localleader")
 "
 " nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
@@ -75,15 +75,11 @@ let g:which_key_space['c'] = {
 			\ 'd': [':CocCommand todolist.download', 'todo-download'],
 			\ 'u': [':CocCommand todolist.upload', 'todo-upload'],
 			\},
-			\ 't': {
-			\ 'name': '+Task',
+			\}
+
+let g:which_key_space['r'] = {
+			\ 'name': '+Run',
 			\ 'l': [':CocList tasks', 'task-list'],
-			\},
-			\ 'y': [':CocList -A --normal yank', 'yank-list'],
-			\ 'd': [':call g:Show_documentation()', 'show-doc'],
-			\ 'r': ['<Plug>(coc-rename)', 'rename'],
-			\ 'a': ['<Plug>(coc-codeaction)', 'codeaction'],
-			\ 'x': ['<Plug>(coc-fix-current)', 'quickfix']
 			\}
 
 " +Tab
@@ -106,7 +102,6 @@ let g:which_key_space['t'] = {
 			\ '8': ['8gt', 'tab-8'],
 			\ '9': ['9gt', 'tab-9'],
 			\ '0': ['0gt', 'tab-0'],
-			\ 'e': [':CocCommand explorer', 'file-explorer']
 			\}
 
 " +Diagnostics
@@ -160,7 +155,8 @@ let g:which_key_space['f']= {
 			\ 't': [':LeaderfBufTag', 'find-function'],
 			\ 'p': [':call FindFileOnCurrentFolder()', 'find-file'],
 			\ 'b': [':Leaderf buffer', 'find-buffer'],
-			\ 'v': [':Vista coc', 'tag-viewer']
+			\ 'v': [':Vista coc', 'tag-viewer'],
+			\ 'e': [':CocCommand explorer', 'file-explorer']
 			\}
 
 let g:which_key_space['p'] = {
@@ -183,15 +179,15 @@ function! Clear_buffers() abort
 endfunction
 
 
-let g:which_key_space['s']= {
-			\ 'name': '+Split',
-			\ 'k': [':set nosplitbelow|split|set splitbelow', 'split-k'],
-			\ 'j': [':set splitbelow|split', 'split-j'],
-			\ 'h': [':set nosplitright|vsplit|set splitright', 'split-h'],
-			\ 'l': [':set splitright|vsplit', 'split-l'],
-			\ 's': [':call ToggleWindowHorizontalVerticalSplit()', 'switch'],
-			\ 'c': ['<C-W>o', 'close-split']
-			\}
+" let g:which_key_space['s']= {
+" 			\ 'name': '+Split',
+" 			\ 'k': [':set nosplitbelow|split|set splitbelow', 'split-k'],
+" 			\ 'j': [':set splitbelow|split', 'split-j'],
+" 			\ 'h': [':set nosplitright|vsplit|set splitright', 'split-h'],
+" 			\ 'l': [':set splitright|vsplit', 'split-l'],
+" 			\ 's': [':call ToggleWindowHorizontalVerticalSplit()', 'switch'],
+" 			\ 'c': ['<C-W>o', 'close-split']
+" 			\}
 
 function! FindFileOnCurrentFolder()
 	execute 'exe "Leaderf file " . expand("%:p:h")'

@@ -1,5 +1,6 @@
 map <leader>il :IndentLinesToggle<CR>
 
+autocmd filetype startify exec ":IndentLinesDisable"
 " let g:indentLine_enabled=1
 " let g:indentLine_setColors=0
 

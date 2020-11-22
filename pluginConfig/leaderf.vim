@@ -25,5 +25,5 @@ let g:Lf_UseCache = 0
 
 
 " nmap <silent> <localleader>p :Leaderf file<cr>
-nmap <silent> <c-p> :exe "Leaderf file " . expand("%:p:h")<cr>
-nmap <silent> <c-b> :Leaderf buffer<cr>
+" nmap <silent> <c-p> :exe "Leaderf file " . expand("%:p:h")<cr>
+" nmap <silent> <c-b> :Leaderf buffer<cr>

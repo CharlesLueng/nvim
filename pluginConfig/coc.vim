@@ -75,9 +75,11 @@ nmap <silent> gr <Plug>(coc-references)
 nmap <LEADER>rn <Plug>(coc-rename)
 nmap <C-e> :CocCommand explorer<CR>
 " Remap keys for applying codeAction to the current buffer.
-nmap <LEADER>ac  <Plug>(coc-codeaction)
+nmap <LEADER>ca  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap <LEADER>qf  <Plug>(coc-fix-current)
+nmap <Leader>d :call g:Show_documentation()<CR>
+nmap <leader>y :CocList -A --normal yank<CR>
 " coc-translator
 " nmap <SPACE>ts <Plug>(coc-translator-p)
 " Remap for do codeAction of selected region
@@ -86,6 +88,21 @@ function! s:cocActionsOpenFromSelected(type) abort
 endfunction
 xmap <silent> <LEADER>a :<C-u>execute 'CocCommand actions.open ' . visualmode()<CR>
 nmap <silent> <LEADER>a :<C-u>set operatorfunc=<SID>cocActionsOpenFromSelected<CR>g@
+
+" Remap <C-f> and <C-b> for scroll float windows/popups.
+" Note coc#float#scroll works on neovim >= 0.4.0 or vim >= 8.2.0750
+nnoremap <nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
+nnoremap <nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
+inoremap <nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
+inoremap <nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
+
+" NeoVim-only mapping for visual mode scroll
+" Useful on signatureHelp after jump placeholder of snippet expansion
+if has('nvim')
+  vnoremap <nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#nvim_scroll(1, 1) : "\<C-f>"
+  vnoremap <nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#nvim_scroll(0, 1) : "\<C-b>"
+endif
+
 " coctodolist
 " nnoremap <leader>tn :CocCommand todolist.create<CR>
 " nnoremap <leader>tl :CocList todolist<CR>

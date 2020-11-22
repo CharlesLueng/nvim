@@ -142,4 +142,4 @@ function SmartQuit()
     endif
 endfunction
 
-" nnoremap <unique> <C-c> :call SmartQuit()<CR>
+nnoremap <unique> <C-c> :call SmartQuit()<CR>

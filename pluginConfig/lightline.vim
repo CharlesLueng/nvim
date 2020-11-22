@@ -83,7 +83,11 @@ call lightline#coc#register()
 " keymap
 " buffer keymap
 
+" function! LightlineStatuslineTabs() abort
+" 	return join(map(range(1, tabpagenr('$')),
+" 				\ '(v:val == tabpagenr() ? "[*] " : "") . lightline#tab#filename(v:val)'), " \u2b81 ")
+" endfunction
 function! LightlineStatuslineTabs() abort
 	return join(map(range(1, tabpagenr('$')),
-				\ '(v:val == tabpagenr() ? "[*] " : "") . lightline#tab#filename(v:val)'), " \u2b81 ")
+				\ '(v:val == tabpagenr() ? "[*] " : "") . v:val'), " \u2b81 ")
 endfunction
