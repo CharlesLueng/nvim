@@ -15,7 +15,7 @@ let g:which_key_hspace = 25
 set timeoutlen=2000
 "
 call which_key#register('<Space>', "g:which_key_space")
-call which_key#register(',', "gndows:which_key_leader")
+call which_key#register(',', "g:which_key_leader")
 call which_key#register('\\', "g:which_key_localleader")
 "
 " nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
@@ -64,7 +64,7 @@ let g:which_key_space['w'] = {
 			\ }
 
 " +Coc
-let g:which_key_space['c'] = {
+let g:which_key_space['C'] = {
 			\ 'name' : '+Coc',
 			\ 'c': [':CocCommand', 'command-list'],
 			\ 'e': [':CocList extensions', 'extentions-list'],
@@ -136,7 +136,6 @@ let g:which_key_space['b']= {
 			\ 'name': '+Buffer',
 			\ 'd': [':bd', 'buffer-delete'],
 			\ 'c': [':call Clear_buffers()', 'closs-all-buffer'],
-			\ 'f': [':Leaderf buffer', 'find-buffer'],
 			\}
 
 let g:which_key_space['j']= {
@@ -156,7 +155,7 @@ let g:which_key_space['f']= {
 			\ 'p': [':call FindFileOnCurrentFolder()', 'find-file'],
 			\ 'b': [':Leaderf buffer', 'find-buffer'],
 			\ 'v': [':Vista coc', 'tag-viewer'],
-			\ 'e': [':CocCommand explorer', 'file-explorer']
+			\ 'e': [':CocCommand explorer', 'file-explorer'],
 			\}
 
 let g:which_key_space['p'] = {
