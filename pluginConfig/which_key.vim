@@ -60,7 +60,7 @@ let g:which_key_space['w'] = {
 			\ 's' : ['<C-W>s'     , 'split-window-below']    ,
 			\ 'v' : ['<C-W>v'     , 'split-window-below']    ,
 			\ '?' : ['Windows'    , 'fzf-window']            ,
-			\ 'c' : ['<Plug>(coc-rename)'    , 'coc-rename'],
+			\ 'c' : ['<C-W>o', 'close-split']
 			\ }
 
 " +Coc
@@ -134,7 +134,7 @@ let g:which_key_space['m']= {
 
 let g:which_key_space['b']= {
 			\ 'name': '+Buffer',
-			\ 'd': [':bd', 'buffer-delete'],
+			\ 'd': [':BD', 'buffer-delete'],
 			\ 'c': [':call Clear_buffers()', 'closs-all-buffer'],
 			\}
 
@@ -179,14 +179,14 @@ endfunction
 
 
 " let g:which_key_space['s']= {
-" 			\ 'name': '+Split',
-" 			\ 'k': [':set nosplitbelow|split|set splitbelow', 'split-k'],
-" 			\ 'j': [':set splitbelow|split', 'split-j'],
-" 			\ 'h': [':set nosplitright|vsplit|set splitright', 'split-h'],
-" 			\ 'l': [':set splitright|vsplit', 'split-l'],
-" 			\ 's': [':call ToggleWindowHorizontalVerticalSplit()', 'switch'],
-" 			\ 'c': ['<C-W>o', 'close-split']
-" 			\}
+"				\ 'name': '+Split',
+"				\ 'k': [':set nosplitbelow|split|set splitbelow', 'split-k'],
+"				\ 'j': [':set splitbelow|split', 'split-j'],
+"				\ 'h': [':set nosplitright|vsplit|set splitright', 'split-h'],
+"				\ 'l': [':set splitright|vsplit', 'split-l'],
+"				\ 's': [':call ToggleWindowHorizontalVerticalSplit()', 'switch'],
+"				\ 'c': ['<C-W>o', 'close-split']
+"				\}
 
 function! FindFileOnCurrentFolder()
 	execute 'exe "Leaderf file " . expand("%:p:h")'
@@ -220,10 +220,10 @@ let g:which_key_space['l'] = {'name': '+Language'}
 " switch which key with filetype
 " Demo
 " let g:which_key_language = {
-" 			\ "cs": {
-" 			\ "j": [':OmniSharpTypeLookup', "TypeLookup"]
-" 			\}
-" 			\}
+"				\ "cs": {
+"				\ "j": [':OmniSharpTypeLookup', "TypeLookup"]
+"				\}
+"				\}
 let g:which_key_language = {}
 
 autocmd BufEnter * call SetFileTypeWhichKey()

@@ -19,6 +19,7 @@ if(g:isWindows == 1)
 endif
 Plug 'RRethy/vim-illuminate'
 Plug 'Yggdroot/indentLine'
+Plug 'qpkorr/vim-bufkill'
 
 " File navigation
 " Plug 'junegunn/fzf.vim'

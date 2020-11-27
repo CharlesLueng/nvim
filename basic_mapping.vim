@@ -109,7 +109,7 @@ noremap B 5b
  autocmd BufRead,BufNewFile *.md setlocal spell
 
 
- autocmd filetype vue,javascript setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd filetype vue,javascript setlocal shiftwidth=2 tabstop=2 expandtab
 autocmd filetype cs setlocal shiftwidth=4 tabstop=4 expandtab
 
 autocmd filetype html,cshtml setlocal shiftwidth=4 tabstop=4 expandtab
