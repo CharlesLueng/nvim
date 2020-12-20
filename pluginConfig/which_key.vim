@@ -140,9 +140,15 @@ let g:which_key_space['b']= {
 
 let g:which_key_space['j']= {
 			\ 'name': '+Jump',
-			\ 'j': [':AnyJump', 'any-jump'],
-			\ 'k': [':AnyJumpBack', 'any-jump-back'],
-			\ 'l': [':AnyJumpLastResults', 'any-jump-last-results']
+			\ 'J': [':AnyJump', 'any-jump'],
+			\ 'B': [':AnyJumpBack', 'any-jump-back'],
+			\ 'r': [':AnyJumpLastResults', 'any-jump-last-results'],
+			\ 'w': ['<Plug>(easymotion-w)', 'to-word'],
+			\ 's': ['<Plug>(easymotion-s)', 'to-character'],
+			\ 'j': ['<Plug>(easymotion-j)', 'line-downward'],
+			\ 'k': ['<Plug>(easymotion-k)', 'line-upward'],
+			\ 'b': ['<Plug>(easymotion-b)', 'backward-word'],
+			\ 'S': ['<Plug>(easymotion-s2)', 'to-two-character']
 			\}
 
 let g:which_key_space['f']= {
