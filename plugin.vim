@@ -35,6 +35,9 @@ Plug 'liuchengxu/vista.vim'
 " Undo Tree
 Plug 'mbbill/undotree'
 
+" Bookmark
+Plug 'MattesGroeger/vim-bookmarks'
+
 " Theme
 Plug 'yuttie/hydrangea-vim'
 Plug 'sonph/onehalf', {'rtp': 'vim'}
@@ -46,6 +49,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " CustomTask
 Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/vim-terminal-help'
 
 " Editor Enhancement
 Plug 'easymotion/vim-easymotion'
@@ -117,4 +121,10 @@ Plug 'dkarter/bullets.vim'
 
 " Debugger
 Plug 'puremourning/vimspector'
+
+" plantuml
+Plug 'huos3203/plantuml-syntax'  "plantuml语法高亮 Plug 'aklt/plantuml-syntax'
+Plug 'tyru/open-browser.vim'
+Plug 'weirongxu/plantuml-previewer.vim' "在线工具：http://sujoyu.github.io/plantuml-previewer/
+
 call plug#end()

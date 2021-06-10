@@ -145,6 +145,14 @@ if !empty(glob('~/.config/nvim/pluginConfig/indentline.vim'))
 	source ~/.config/nvim/pluginConfig/indentline.vim
 endif
 
+if !empty(glob('~/.config/nvim/pluginConfig/bookmark.vim'))
+	source ~/.config/nvim/pluginConfig/bookmark.vim
+endif
+
+if !empty(glob('~/.config/nvim/pluginConfig/vimspector.vim'))
+	source ~/.config/nvim/pluginConfig/vimspector.vim
+endif
+
 if(g:isWindows)
 	if !empty(glob('~/.config/nvim/pluginConfig/ale.vim'))
 		source ~/.config/nvim/pluginConfig/ale.vim
@@ -156,6 +164,15 @@ for rcfile in split(globpath("$HOME/.config/nvim/language", "*.vim"), '\n')
 	execute('source '.rcfile)
 endfor
 
+function! QfMakeConv()
+	let qflist = getqflist()
+	for i in qflist
+		let i.text = iconv(i.text, "cp936", "utf-8")
+	endfor
+	call setqflist(qflist)
+endfunction
+
+au QuickfixCmdPost make call QfMakeConv()
 
 syntax on
 colorscheme onedark

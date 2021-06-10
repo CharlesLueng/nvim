@@ -73,9 +73,9 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 
 
 if exists('+termguicolors')
-  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-  set termguicolors
+	let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+	let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+	set termguicolors
 endif
 " set -g default-terminal "tmux-256color"
 " set -ga terminal-overrides ",*256col*:Tc"
@@ -88,8 +88,8 @@ filetype plugin indent on
 set runtimepath+=~/.config/nvim/indent
 " set runtimepath+=~/.config/nvim/ftplugin
 
-		" autocmd filetype cs echo '123'
-		" Detect root directory of SpaceVim
+" autocmd filetype cs echo '123'
+" Detect root directory of SpaceVim
 " if has('win16') || has('win32') || has('win64')
 "   function! s:resolve(path) abort
 "     let cmd = 'dir /a "' . a:path . '" | findstr SYMLINK'
@@ -128,3 +128,5 @@ let g:islinux = 0
 if(has('win32')||has('win64')||has('win95')||has('win16'))
 	let g:isWindows = 1
 endif
+syntax enable
+

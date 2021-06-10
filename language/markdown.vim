@@ -1,9 +1,4 @@
-" add html syntax to dotnet razor files
-" autocmd BufNewFile,BufRead *.cshtml set syntax=html
-" autocmd BufNewFile,BufRead *.cshtml set filetype=html
-
-
-let g:which_key_language['cs'] ={
+let g:which_key_language['md'] ={
 			\ 'd': ['<Plug>(omnisharp_documentation)', 'show-doc'],
 			\ 'g': {
 			\ 'name': '+Navigate',

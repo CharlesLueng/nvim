@@ -38,7 +38,7 @@ let g:which_key_space = {
 			\ '8': ['<Plug>lightline#bufferline#go(8)', 'Buffer-8'],
 			\ '9': ['<Plug>lightline#bufferline#go(9)', 'Buffer-9'],
 			\ '0': ['<Plug>lightline#bufferline#go(0)', 'Buffer-0'],
-			\ '/': [':set nohlsearch', 'nohlsearch'],
+			\ '/': [':nohl', 'nohlsearch'],
 			\}
 "
 let g:which_key_space['w'] = {
@@ -122,14 +122,27 @@ else
 				\}
 endif
 
+let g:which_key_space['D'] = {
+			\ 'name': '+Debugger',
+			\ 'b': ['<Plug>VimspectorToggleBreakpoint', 'toggle-breakpoint'],
+			\ 's': ['<Plug>VimspectorContinue', 'continue'],
+			\ 'S': ['<Plug>VimspectorStop', 'stop'],
+			\ 'c': ['<Plug>VimspectorToggleConditionalBreakpoint', 'toggle-conditional-breakpoint'],
+			\ 'l': [':call vimspector#Launch()', 'Launch'],
+			\ 'f': ['<Plug>VimspectorAddFunctionBreakpoint', 'toggle-function-breakpoint'],
+			\ 'q': [':VimspectorReset', 'quit']
+			\}
+
 " +Bookmark
 let g:which_key_space['m']= {
 			\ 'name': '+Bookmark',
-			\ 'm': ['<Plug>(coc-bookmark-toggle)', 'toggle'],
-			\ 'a': ['<Plug>(coc-bookmark-annotate)', 'annotate'],
-			\ 'j': ['<Plug>(coc-bookmark-next)', 'next'],
-			\ 'k': ['<Plug>(coc-bookmark-prev)', 'prev'],
-			\ 'l': [':CocList bookmark', 'list'],
+			\ 'm': [':BookmarkToggle', 'toggle'],
+			\ 'a': [':BookmarkAnnotate', 'annotate'],
+			\ 'j': [':BookmarkNext', 'next'],
+			\ 'k': [':BookmarkPrev', 'prev'],
+			\ 'c': [':BookmarkClear', 'clear'],
+			\ 'x': [':BookmarkClearAll', 'clear-all'],
+			\ 'l': [':BookmarkShowAll', 'list'],
 			\}
 
 let g:which_key_space['b']= {
