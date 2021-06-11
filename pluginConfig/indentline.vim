@@ -15,7 +15,7 @@ autocmd filetype startify exec ":IndentLinesDisable"
 " let g:indentLine_char = '┆'
 " let g:indentLine_faster = 1
 " IndentLine plugin
-let g:indentLine_enabled = 1
+let g:indentLine_enabled = 0
 " let g:indentLine_faster = 1
 " let g:indentLine_char = '⎸'
 

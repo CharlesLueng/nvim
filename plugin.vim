@@ -20,6 +20,7 @@ endif
 Plug 'RRethy/vim-illuminate'
 Plug 'Yggdroot/indentLine'
 Plug 'qpkorr/vim-bufkill'
+Plug 'szw/vim-maximizer'
 
 " File navigation
 " Plug 'junegunn/fzf.vim'
@@ -76,10 +77,10 @@ Plug 'airblade/vim-gitgutter'
 " CSharp
 Plug 'OmniSharp/omnisharp-vim'
 " HTML, CSS, JavaScript, Typescript, PHP, JSON, etc.
-Plug 'elzr/vim-json'
-Plug 'neoclide/jsonc.vim'
-Plug 'othree/html5.vim'
-Plug 'alvan/vim-closetag'
+Plug 'elzr/vim-json', { 'for': ['json'] }
+Plug 'neoclide/jsonc.vim', { 'for': ['json'] }
+Plug 'othree/html5.vim', { 'for': ['html', 'vue', 'cshtml'] }
+Plug 'alvan/vim-closetag', { 'for': ['html', 'vue', 'cshtml'] }
 " Plug 'hail2u/vim-css3-syntax' " , { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
 " Plug 'spf13/PIV', { 'for' :['php', 'vim-plug'] }
 " Plug 'pangloss/vim-javascript', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
@@ -88,7 +89,7 @@ Plug 'MaxMEllon/vim-jsx-pretty', { 'for': ['vim-plug', 'php', 'html', 'javascrip
 " Plug 'jelera/vim-javascript-syntax', { 'for': ['vim-plug', 'php', 'html', 'javascript', 'css', 'less'] }
 "Plug 'jaxbot/browserlink.vim'
 Plug 'HerringtonDarkholme/yats.vim'
-Plug 'posva/vim-vue'
+Plug 'posva/vim-vue', { 'for': ['vue'] }
 
 " Go
 Plug 'fatih/vim-go' , { 'for': ['go', 'vim-plug'], 'tag': '*' }
@@ -103,28 +104,28 @@ Plug 'tweekmonster/braceless.vim', { 'for' :['python', 'vim-plug'] }
 
 
 " Flutter
-Plug 'dart-lang/dart-vim-plugin'
+Plug 'dart-lang/dart-vim-plugin', { 'for': ['dart'] }
 Plug 'f-person/pubspec-assist-nvim', { 'for' : ['pubspec.yaml'] }
 
 " Check
 " Plug 'dense-analysis/ale'
 
 " Swift
-Plug 'keith/swift.vim'
-Plug 'arzg/vim-swift'
+" Plug 'keith/swift.vim'
+" Plug 'arzg/vim-swift'
 
 " Markdown
 Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle', 'for': ['text', 'markdown', 'vim-plug'] }
 Plug 'mzlogin/vim-markdown-toc', { 'for': ['gitignore', 'markdown', 'vim-plug'] }
-Plug 'dkarter/bullets.vim'
+Plug 'dkarter/bullets.vim', { 'for': ['markdown'] }
 
 " Debugger
 Plug 'puremourning/vimspector'
 
 " plantuml
-Plug 'huos3203/plantuml-syntax'  "plantuml语法高亮 Plug 'aklt/plantuml-syntax'
+Plug 'huos3203/plantuml-syntax', { 'for': ['plantuml'] }  "plantuml语法高亮 Plug 'aklt/plantuml-syntax'
 Plug 'tyru/open-browser.vim'
-Plug 'weirongxu/plantuml-previewer.vim' "在线工具：http://sujoyu.github.io/plantuml-previewer/
+Plug 'weirongxu/plantuml-previewer.vim', { 'for': ['plantuml'] } "在线工具：http://sujoyu.github.io/plantuml-previewer/
 
 call plug#end()

@@ -60,7 +60,8 @@ let g:which_key_space['w'] = {
 			\ 's' : ['<C-W>s'     , 'split-window-below']    ,
 			\ 'v' : ['<C-W>v'     , 'split-window-below']    ,
 			\ '?' : ['Windows'    , 'fzf-window']            ,
-			\ 'c' : ['<C-W>o', 'close-split']
+			\ 'c' : ['<C-W>o', 'close-split'],
+			\ 'm' : [':MaximizerToggle!', 'max-window']
 			\ }
 
 " +Coc
@@ -121,6 +122,35 @@ else
 				\ 's': [':ALEToggle', 'toggle-diagnostics']
 				\}
 endif
+
+" Vim-Spector
+
+fun! GoToWindow(id)
+	echo a:id
+	call win_gotoid(a:id)
+	MaximizerToggle
+endfun
+
+let g:which_key_space['s'] = {
+			\'name': '+Vim-Spector',
+			\'d': [':call vimspector#Launch()', 'launch'],
+			\ 'c': [':call GoToWindow(g:vimspector_session_windows.code)', 'go-to-code'],
+			\ 't': [':call GoToWindow(g:vimspector_session_windows.tagpage)', 'go-to-tagpage'],
+			\ 'v': [':call GoToWindow(g:vimspector_session_windows.variables)', 'go-to-variables'],
+			\ 'w': [':call GoToWindow(g:vimspector_session_windows.watches)', 'go-to-watches'],
+			\ 's': [':call GoToWindow(g:vimspector_session_windows.stack_trace)', 'go-to-stack_trace'],
+			\ 'o': [':call GoToWindow(g:vimspector_session_windows.output)', 'go-to-output'],
+			\ 'C': [':call vimspector#CleanLineBreakpoint()', 'clean-line-breakpoint'],
+			\ 'e': [':call vimspector#Reset()', 'reset'],
+			\ 'l': ['<Plug>VimspectorStepInfo', 'step-info'],
+			\ 'j': ['<Plug>VimspectorStepOver', 'step-over'],
+			\ 'k': ['<Plug>VimspactorStepOut', 'step-out'],
+			\ 'g': [':call vimspector#Continue', 'continue'],
+			\ 'r': ['<Plug>VimspectorRunToCursor', 'run-to-cursor'],
+			\ 'b': ['<Plug>VimspectorToggleBreakpoint', 'breakpoint'],
+			\ 'a': ['<Plug>VimspectorConditionalBreakpoint', 'conditional-break-point']
+			\}
+
 
 let g:which_key_space['D'] = {
 			\ 'name': '+Debugger',
